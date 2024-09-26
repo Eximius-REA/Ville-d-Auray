@@ -1,0 +1,3414 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3126d238d5d455da0b392ccab84a8689 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3126d238d5d455da0b392ccab84a8689" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3126d238d5d455da0b392ccab84a8689 = L.map(
+                "map_3126d238d5d455da0b392ccab84a8689",
+                {
+                    center: [47.666667134146344, -2.9876393048780487],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5902f17cf0cb615e89e070834ceeed9e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_480b83564f94743ffe2128bc90fde537 = L.marker(
+                [47.664627, -2.983769],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_feb10b6f69b98d7315af93a1233fdba9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_480b83564f94743ffe2128bc90fde537.setIcon(icon_feb10b6f69b98d7315af93a1233fdba9);
+        
+    
+        var popup_b4751a4ee336dd0581af81a91ff7ed15 = L.popup({"maxWidth": 300});
+
+        
+            var html_a3e7193e99d0d3d980b7fabe2696b4fc = $(`<div id="html_a3e7193e99d0d3d980b7fabe2696b4fc" style="width: 100.0%; height: 100.0%;">Bâtiment: POLICE MUNICIPALE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 1</div>`)[0];
+            popup_b4751a4ee336dd0581af81a91ff7ed15.setContent(html_a3e7193e99d0d3d980b7fabe2696b4fc);
+        
+
+        marker_480b83564f94743ffe2128bc90fde537.bindPopup(popup_b4751a4ee336dd0581af81a91ff7ed15)
+        ;
+
+        
+    
+    
+            var marker_2f10c6e9c2a059dd1c18290a2f9961d4 = L.marker(
+                [47.664333, -2.982492],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_837414d5d7beb0cf1ce5378a4d44603a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f10c6e9c2a059dd1c18290a2f9961d4.setIcon(icon_837414d5d7beb0cf1ce5378a4d44603a);
+        
+    
+        var popup_1335dfd09a9cb65fc4180938cb4ac98c = L.popup({"maxWidth": 300});
+
+        
+            var html_6bfc92810e18cae670304ece3b7c0514 = $(`<div id="html_6bfc92810e18cae670304ece3b7c0514" style="width: 100.0%; height: 100.0%;">Bâtiment: STADE DU LOCH BATIMENTS<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 2</div>`)[0];
+            popup_1335dfd09a9cb65fc4180938cb4ac98c.setContent(html_6bfc92810e18cae670304ece3b7c0514);
+        
+
+        marker_2f10c6e9c2a059dd1c18290a2f9961d4.bindPopup(popup_1335dfd09a9cb65fc4180938cb4ac98c)
+        ;
+
+        
+    
+    
+            var poly_line_6b9e922d553f67f8948ae73181a19495 = L.polyline(
+                [[47.664627, -2.983769], [47.664333, -2.982492]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_3734828ae5ac089f74ccd2190c039169 = L.marker(
+                [47.66448, -2.9831305],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_ddc2c574d3edd15b08ccd5c81c9693c1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e2\u003c/div\u003e"});
+            marker_3734828ae5ac089f74ccd2190c039169.setIcon(div_icon_ddc2c574d3edd15b08ccd5c81c9693c1);
+        
+    
+            var marker_54dd526df87a7a97ec38310074601e91 = L.marker(
+                [47.665626, -2.983791],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_6ba1fa774be8eaf8ab963a01fad47896 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_54dd526df87a7a97ec38310074601e91.setIcon(icon_6ba1fa774be8eaf8ab963a01fad47896);
+        
+    
+        var popup_837f4d37ae76b59e2ba89c222289224d = L.popup({"maxWidth": 300});
+
+        
+            var html_37007063341d88f74866c2a11cae0e2e = $(`<div id="html_37007063341d88f74866c2a11cae0e2e" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGEMENTS<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 3</div>`)[0];
+            popup_837f4d37ae76b59e2ba89c222289224d.setContent(html_37007063341d88f74866c2a11cae0e2e);
+        
+
+        marker_54dd526df87a7a97ec38310074601e91.bindPopup(popup_837f4d37ae76b59e2ba89c222289224d)
+        ;
+
+        
+    
+    
+            var poly_line_4144c391c1009ea1fde2127da7017675 = L.polyline(
+                [[47.664333, -2.982492], [47.665626, -2.983791]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_68161d57c7dda77e5eb32fc77ea3d193 = L.marker(
+                [47.6649795, -2.9831415000000003],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_f8d9d27dd826c0eb38f049d477e1477f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e3\u003c/div\u003e"});
+            marker_68161d57c7dda77e5eb32fc77ea3d193.setIcon(div_icon_f8d9d27dd826c0eb38f049d477e1477f);
+        
+    
+            var marker_c5e0639dd9ee9e303ce3c98d24e4fe88 = L.marker(
+                [47.665626, -2.983791],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_e3d93cb03756227626ca73f476c98f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5e0639dd9ee9e303ce3c98d24e4fe88.setIcon(icon_e3d93cb03756227626ca73f476c98f9f);
+        
+    
+        var popup_8cfc46a083babaa468bed23652306e06 = L.popup({"maxWidth": 300});
+
+        
+            var html_9a0841026b4ab1e9d1368c90a7ed73bd = $(`<div id="html_9a0841026b4ab1e9d1368c90a7ed73bd" style="width: 100.0%; height: 100.0%;">Bâtiment: MAISON DE L HISTOIRE<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 4</div>`)[0];
+            popup_8cfc46a083babaa468bed23652306e06.setContent(html_9a0841026b4ab1e9d1368c90a7ed73bd);
+        
+
+        marker_c5e0639dd9ee9e303ce3c98d24e4fe88.bindPopup(popup_8cfc46a083babaa468bed23652306e06)
+        ;
+
+        
+    
+    
+            var poly_line_301fa6f4bc991976c40e9f7d488982ef = L.polyline(
+                [[47.665626, -2.983791], [47.665626, -2.983791]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_887c34849f5c0a04856237128e8f38f7 = L.marker(
+                [47.665626, -2.983791],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_d3f9e57cd55fcd914a768fe222ac0f57 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e4\u003c/div\u003e"});
+            marker_887c34849f5c0a04856237128e8f38f7.setIcon(div_icon_d3f9e57cd55fcd914a768fe222ac0f57);
+        
+    
+            var marker_11ba0f29a69118a0772011ac4ba49ea8 = L.marker(
+                [47.666456, -2.984319],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_60be7eead119ba86ceffd5698f1d1c08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11ba0f29a69118a0772011ac4ba49ea8.setIcon(icon_60be7eead119ba86ceffd5698f1d1c08);
+        
+    
+        var popup_bfa8594871faec6b84efdd0eaf170a23 = L.popup({"maxWidth": 300});
+
+        
+            var html_a4ff32090b6dab0822f44b39f2f8a920 = $(`<div id="html_a4ff32090b6dab0822f44b39f2f8a920" style="width: 100.0%; height: 100.0%;">Bâtiment: MAIRIE<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 5</div>`)[0];
+            popup_bfa8594871faec6b84efdd0eaf170a23.setContent(html_a4ff32090b6dab0822f44b39f2f8a920);
+        
+
+        marker_11ba0f29a69118a0772011ac4ba49ea8.bindPopup(popup_bfa8594871faec6b84efdd0eaf170a23)
+        ;
+
+        
+    
+    
+            var poly_line_564aa5c1dcee992ce4453a500d1ed187 = L.polyline(
+                [[47.665626, -2.983791], [47.666456, -2.984319]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_850f0ed56d7333717769493e4f569b19 = L.marker(
+                [47.666041, -2.984055],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_702af966b552e450ddcb70edfd32755d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e5\u003c/div\u003e"});
+            marker_850f0ed56d7333717769493e4f569b19.setIcon(div_icon_702af966b552e450ddcb70edfd32755d);
+        
+    
+            var marker_57a0fee1a54d5234233b594b1af5067a = L.marker(
+                [47.666574, -2.98362],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_35c2361e1f4dae82da594574e7e3d7fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57a0fee1a54d5234233b594b1af5067a.setIcon(icon_35c2361e1f4dae82da594574e7e3d7fe);
+        
+    
+        var popup_6872e95accbb05e39d4daf910d488b47 = L.popup({"maxWidth": 300});
+
+        
+            var html_bce89bd000ca92de5298d7424e0f2887 = $(`<div id="html_bce89bd000ca92de5298d7424e0f2887" style="width: 100.0%; height: 100.0%;">Bâtiment: PETIT THEATRE<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 6</div>`)[0];
+            popup_6872e95accbb05e39d4daf910d488b47.setContent(html_bce89bd000ca92de5298d7424e0f2887);
+        
+
+        marker_57a0fee1a54d5234233b594b1af5067a.bindPopup(popup_6872e95accbb05e39d4daf910d488b47)
+        ;
+
+        
+    
+    
+            var poly_line_1e6071af00cc8eac94fe0256c16754a7 = L.polyline(
+                [[47.666456, -2.984319], [47.666574, -2.98362]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_2c70d88595358794bdc4cbbbc4d0a930 = L.marker(
+                [47.666515, -2.9839695],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_d20f0e51bb422f78bde39db4a3ee3f0b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e6\u003c/div\u003e"});
+            marker_2c70d88595358794bdc4cbbbc4d0a930.setIcon(div_icon_d20f0e51bb422f78bde39db4a3ee3f0b);
+        
+    
+            var marker_a4b91c9e4a806e78812ad1dd779f5eee = L.marker(
+                [47.667015, -2.982782],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_37442b8e5eecc3f955e4fe469a5f5f34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4b91c9e4a806e78812ad1dd779f5eee.setIcon(icon_37442b8e5eecc3f955e4fe469a5f5f34);
+        
+    
+        var popup_a06d36be0d8242576416fcaa832d96b3 = L.popup({"maxWidth": 300});
+
+        
+            var html_038ae756f4c2efd3ed4b0ec09d1e2992 = $(`<div id="html_038ae756f4c2efd3ed4b0ec09d1e2992" style="width: 100.0%; height: 100.0%;">Bâtiment: LOCAL RUE HUETTE - Rez-de-chaussée<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 7</div>`)[0];
+            popup_a06d36be0d8242576416fcaa832d96b3.setContent(html_038ae756f4c2efd3ed4b0ec09d1e2992);
+        
+
+        marker_a4b91c9e4a806e78812ad1dd779f5eee.bindPopup(popup_a06d36be0d8242576416fcaa832d96b3)
+        ;
+
+        
+    
+    
+            var poly_line_eee2038ed23c56734db9c6796946d5b0 = L.polyline(
+                [[47.666574, -2.98362], [47.667015, -2.982782]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_b3bdb3903756735bae4715d95285ce6d = L.marker(
+                [47.666794499999995, -2.983201],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_ed08b22ae19045ccba198ebb703deda8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e7\u003c/div\u003e"});
+            marker_b3bdb3903756735bae4715d95285ce6d.setIcon(div_icon_ed08b22ae19045ccba198ebb703deda8);
+        
+    
+            var marker_e34b7c275a52a7e4dda7365549c6367f = L.marker(
+                [47.667015, -2.982782],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_273864786a8fd3534ee69c5afaa87f8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e34b7c275a52a7e4dda7365549c6367f.setIcon(icon_273864786a8fd3534ee69c5afaa87f8f);
+        
+    
+        var popup_7ce8eb5ebe327ad5a4012d53961201f3 = L.popup({"maxWidth": 300});
+
+        
+            var html_7b8fbe71b54b2593763fa52c2ae4fb91 = $(`<div id="html_7b8fbe71b54b2593763fa52c2ae4fb91" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGEMENT D'URGENCE - 1er étage<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 8</div>`)[0];
+            popup_7ce8eb5ebe327ad5a4012d53961201f3.setContent(html_7b8fbe71b54b2593763fa52c2ae4fb91);
+        
+
+        marker_e34b7c275a52a7e4dda7365549c6367f.bindPopup(popup_7ce8eb5ebe327ad5a4012d53961201f3)
+        ;
+
+        
+    
+    
+            var poly_line_0c8a5e67ba2d43b9395191c255c662b5 = L.polyline(
+                [[47.667015, -2.982782], [47.667015, -2.982782]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_af037e5651b6b1b2bec9a32b4696dd7b = L.marker(
+                [47.667015, -2.982782],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_df2ccaa4d674be3bc8bc9ae3c8f80893 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e8\u003c/div\u003e"});
+            marker_af037e5651b6b1b2bec9a32b4696dd7b.setIcon(div_icon_df2ccaa4d674be3bc8bc9ae3c8f80893);
+        
+    
+            var marker_b818f4f7f578138260e5bc939d0c5d83 = L.marker(
+                [47.666837, -2.985352],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_986165ba1dfee2e807d072e859ce6c8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b818f4f7f578138260e5bc939d0c5d83.setIcon(icon_986165ba1dfee2e807d072e859ce6c8a);
+        
+    
+        var popup_066b3d8a6099209ec59bd5d418c3b409 = L.popup({"maxWidth": 300});
+
+        
+            var html_4d701f2c295b68e649cff56980d1967f = $(`<div id="html_4d701f2c295b68e649cff56980d1967f" style="width: 100.0%; height: 100.0%;">Bâtiment: CHAPELLE DE LA CONGREGATION<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 9</div>`)[0];
+            popup_066b3d8a6099209ec59bd5d418c3b409.setContent(html_4d701f2c295b68e649cff56980d1967f);
+        
+
+        marker_b818f4f7f578138260e5bc939d0c5d83.bindPopup(popup_066b3d8a6099209ec59bd5d418c3b409)
+        ;
+
+        
+    
+    
+            var poly_line_a05f5a8e547b8556f980d8e4376a0ccb = L.polyline(
+                [[47.667015, -2.982782], [47.666837, -2.985352]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_72a9560f3d1b6963e499cb19ef83148c = L.marker(
+                [47.666926000000004, -2.9840669999999996],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_d906ad559145887c4a02b59398520f7e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e9\u003c/div\u003e"});
+            marker_72a9560f3d1b6963e499cb19ef83148c.setIcon(div_icon_d906ad559145887c4a02b59398520f7e);
+        
+    
+            var marker_b2354133f04702280fc2c1fd6b9c3a03 = L.marker(
+                [47.666837, -2.985352],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_4d01ccf3e236619c0aa24e332c6c31df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2354133f04702280fc2c1fd6b9c3a03.setIcon(icon_4d01ccf3e236619c0aa24e332c6c31df);
+        
+    
+        var popup_03dd9676a74c81422d34b51be1e02896 = L.popup({"maxWidth": 300});
+
+        
+            var html_018bf01ade0769ee21505406006453d9 = $(`<div id="html_018bf01ade0769ee21505406006453d9" style="width: 100.0%; height: 100.0%;">Bâtiment: OFFICE DE TOURISME CHAPELLE DE LA CONGREGATION<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 10</div>`)[0];
+            popup_03dd9676a74c81422d34b51be1e02896.setContent(html_018bf01ade0769ee21505406006453d9);
+        
+
+        marker_b2354133f04702280fc2c1fd6b9c3a03.bindPopup(popup_03dd9676a74c81422d34b51be1e02896)
+        ;
+
+        
+    
+    
+            var poly_line_edd780f4b490ee16444c41f7fa1b1ed3 = L.polyline(
+                [[47.666837, -2.985352], [47.666837, -2.985352]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_55527ef232db2b272dee61609beaebd9 = L.marker(
+                [47.666837, -2.985352],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_f0a9ccc9aff846d9ab522599f2e0c8d8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e10\u003c/div\u003e"});
+            marker_55527ef232db2b272dee61609beaebd9.setIcon(div_icon_f0a9ccc9aff846d9ab522599f2e0c8d8);
+        
+    
+            var marker_af311b0d7a6298e5ad7c919ffc760e0e = L.marker(
+                [47.668093, -2.985863],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_4c7e09e4e22cd63f1ff8ef0fbbca1b7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af311b0d7a6298e5ad7c919ffc760e0e.setIcon(icon_4c7e09e4e22cd63f1ff8ef0fbbca1b7f);
+        
+    
+        var popup_c2f60140b90d1b83586ab63aa1e2cec3 = L.popup({"maxWidth": 300});
+
+        
+            var html_63d89f0e60791a722e1b979fbbddacbb = $(`<div id="html_63d89f0e60791a722e1b979fbbddacbb" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE DE MUSIQUE<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 11</div>`)[0];
+            popup_c2f60140b90d1b83586ab63aa1e2cec3.setContent(html_63d89f0e60791a722e1b979fbbddacbb);
+        
+
+        marker_af311b0d7a6298e5ad7c919ffc760e0e.bindPopup(popup_c2f60140b90d1b83586ab63aa1e2cec3)
+        ;
+
+        
+    
+    
+            var poly_line_003006e7d38976718d3d4fe340f537d9 = L.polyline(
+                [[47.666837, -2.985352], [47.668093, -2.985863]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_194165175834ee6b2a49bbf26e494098 = L.marker(
+                [47.667465, -2.9856075],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_5351085f7534aeb3d354f2cf90aae50d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e11\u003c/div\u003e"});
+            marker_194165175834ee6b2a49bbf26e494098.setIcon(div_icon_5351085f7534aeb3d354f2cf90aae50d);
+        
+    
+            var marker_4a4b7621b1d948f15fbc138d00a1d8d5 = L.marker(
+                [47.66921, -2.986851],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_126689d129222dc1c698ace23b72138c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4a4b7621b1d948f15fbc138d00a1d8d5.setIcon(icon_126689d129222dc1c698ace23b72138c);
+        
+    
+        var popup_2376af2306efb7cdf1c9ab1eb54a0b95 = L.popup({"maxWidth": 300});
+
+        
+            var html_e6f87def3cc13179ff0bc7166075dc43 = $(`<div id="html_e6f87def3cc13179ff0bc7166075dc43" style="width: 100.0%; height: 100.0%;">Bâtiment: CITE ADMINISTRATIVE<br>Tranche de surface: E 2501-5000<br>Numéro d'ordre: 12</div>`)[0];
+            popup_2376af2306efb7cdf1c9ab1eb54a0b95.setContent(html_e6f87def3cc13179ff0bc7166075dc43);
+        
+
+        marker_4a4b7621b1d948f15fbc138d00a1d8d5.bindPopup(popup_2376af2306efb7cdf1c9ab1eb54a0b95)
+        ;
+
+        
+    
+    
+            var poly_line_fe9067de804f8f430bbf8e867dbcb1d7 = L.polyline(
+                [[47.668093, -2.985863], [47.66921, -2.986851]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_658c4b8da96dd929a7ed7b5751a1e3b1 = L.marker(
+                [47.668651499999996, -2.986357],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_554a63d2aa1495111b7e0bac7c45d4d9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e12\u003c/div\u003e"});
+            marker_658c4b8da96dd929a7ed7b5751a1e3b1.setIcon(div_icon_554a63d2aa1495111b7e0bac7c45d4d9);
+        
+    
+            var marker_ffceefd25c0dbc5edfb59cd0f9c6fbf8 = L.marker(
+                [47.669941, -2.986848],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_73f25fffa677eb60cd0ad1f8ccbf2f81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffceefd25c0dbc5edfb59cd0f9c6fbf8.setIcon(icon_73f25fffa677eb60cd0ad1f8ccbf2f81);
+        
+    
+        var popup_9fe736525d38498ca8a70325981456c6 = L.popup({"maxWidth": 300});
+
+        
+            var html_3b21d7d62600eaa0bd947c76efe31cb9 = $(`<div id="html_3b21d7d62600eaa0bd947c76efe31cb9" style="width: 100.0%; height: 100.0%;">Bâtiment: SALLE DU PENHER SALLE LOUIS MASSE<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 13</div>`)[0];
+            popup_9fe736525d38498ca8a70325981456c6.setContent(html_3b21d7d62600eaa0bd947c76efe31cb9);
+        
+
+        marker_ffceefd25c0dbc5edfb59cd0f9c6fbf8.bindPopup(popup_9fe736525d38498ca8a70325981456c6)
+        ;
+
+        
+    
+    
+            var poly_line_f4ca38be941b258c8dcf0955be7a1f1f = L.polyline(
+                [[47.66921, -2.986851], [47.669941, -2.986848]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_1e5c7a13295582efa958560fd5dba5a1 = L.marker(
+                [47.6695755, -2.9868495],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_e7bb293febda88603fc26dcbd3212417 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e13\u003c/div\u003e"});
+            marker_1e5c7a13295582efa958560fd5dba5a1.setIcon(div_icon_e7bb293febda88603fc26dcbd3212417);
+        
+    
+            var marker_8542d09dabfa18cd66423490fe29d7a4 = L.marker(
+                [47.67008, -2.986845],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_7f20e13f10ea855b7379b754135b83a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8542d09dabfa18cd66423490fe29d7a4.setIcon(icon_7f20e13f10ea855b7379b754135b83a2);
+        
+    
+        var popup_5cfb0d3d350f978c99329389a38cf1fc = L.popup({"maxWidth": 300});
+
+        
+            var html_8d856868d3b1fd520ff4feefada367e2 = $(`<div id="html_8d856868d3b1fd520ff4feefada367e2" style="width: 100.0%; height: 100.0%;">Bâtiment: ALSH DU PENHER<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 14</div>`)[0];
+            popup_5cfb0d3d350f978c99329389a38cf1fc.setContent(html_8d856868d3b1fd520ff4feefada367e2);
+        
+
+        marker_8542d09dabfa18cd66423490fe29d7a4.bindPopup(popup_5cfb0d3d350f978c99329389a38cf1fc)
+        ;
+
+        
+    
+    
+            var poly_line_9581c0ccdb7040bdf9f1cefc8caba4df = L.polyline(
+                [[47.669941, -2.986848], [47.67008, -2.986845]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_e17e2caca9e5ae9aaa0403747c97d369 = L.marker(
+                [47.670010500000004, -2.9868465000000004],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_52ed8daac98e4f80d6e8bbd5caa26a58 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e14\u003c/div\u003e"});
+            marker_e17e2caca9e5ae9aaa0403747c97d369.setIcon(div_icon_52ed8daac98e4f80d6e8bbd5caa26a58);
+        
+    
+            var marker_6be61fcece37b3421138134766b536bf = L.marker(
+                [47.670487, -2.986799],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_bcc982fb94e5cc8ee50974e8f79c1774 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6be61fcece37b3421138134766b536bf.setIcon(icon_bcc982fb94e5cc8ee50974e8f79c1774);
+        
+    
+        var popup_28d0f081782fcda686bd6c7fc7f39849 = L.popup({"maxWidth": 300});
+
+        
+            var html_fada55de6525a2e0165789edb1e6726e = $(`<div id="html_fada55de6525a2e0165789edb1e6726e" style="width: 100.0%; height: 100.0%;">Bâtiment: POLE MUNICIPAL DU PENHER<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 15</div>`)[0];
+            popup_28d0f081782fcda686bd6c7fc7f39849.setContent(html_fada55de6525a2e0165789edb1e6726e);
+        
+
+        marker_6be61fcece37b3421138134766b536bf.bindPopup(popup_28d0f081782fcda686bd6c7fc7f39849)
+        ;
+
+        
+    
+    
+            var poly_line_80b9b2e629c3cb74f595e204a39b3e60 = L.polyline(
+                [[47.67008, -2.986845], [47.670487, -2.986799]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_081ae137429fa6a6f064f5758abf52f2 = L.marker(
+                [47.6702835, -2.986822],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_01d06ae1fa2da8d01e7b5230be445e47 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e15\u003c/div\u003e"});
+            marker_081ae137429fa6a6f064f5758abf52f2.setIcon(div_icon_01d06ae1fa2da8d01e7b5230be445e47);
+        
+    
+            var marker_c87bb1639a08b1066b73ac06ca1637dd = L.marker(
+                [47.669734, -2.986058],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_81c905f24f3d0bb6cd452300fb932556 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c87bb1639a08b1066b73ac06ca1637dd.setIcon(icon_81c905f24f3d0bb6cd452300fb932556);
+        
+    
+        var popup_76479d1cadc103189990eb7d1780adf5 = L.popup({"maxWidth": 300});
+
+        
+            var html_57cd33258e9deacb224005e8ad88222f = $(`<div id="html_57cd33258e9deacb224005e8ad88222f" style="width: 100.0%; height: 100.0%;">Bâtiment: STUDIO DE REPETION DE MUSIQUE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 16</div>`)[0];
+            popup_76479d1cadc103189990eb7d1780adf5.setContent(html_57cd33258e9deacb224005e8ad88222f);
+        
+
+        marker_c87bb1639a08b1066b73ac06ca1637dd.bindPopup(popup_76479d1cadc103189990eb7d1780adf5)
+        ;
+
+        
+    
+    
+            var poly_line_03a098fb78dec27e101c520d51f15134 = L.polyline(
+                [[47.670487, -2.986799], [47.669734, -2.986058]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_9706107cd51286ba1c38790450ccd65c = L.marker(
+                [47.6701105, -2.9864284999999997],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_cfdf71658eba077c6be72d8d286cf82b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e16\u003c/div\u003e"});
+            marker_9706107cd51286ba1c38790450ccd65c.setIcon(div_icon_cfdf71658eba077c6be72d8d286cf82b);
+        
+    
+            var marker_72f61786029bfe5383b33aa1c1bcc937 = L.marker(
+                [47.67075, -2.988255],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_cf7f2f9a4aa42123d99551e7fc7268af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72f61786029bfe5383b33aa1c1bcc937.setIcon(icon_cf7f2f9a4aa42123d99551e7fc7268af);
+        
+    
+        var popup_e49105c93ddd1b7f36b667dfd9a48621 = L.popup({"maxWidth": 300});
+
+        
+            var html_2ec09469878f72a100e1535f5c4058fe = $(`<div id="html_2ec09469878f72a100e1535f5c4058fe" style="width: 100.0%; height: 100.0%;">Bâtiment: SALLE JEAN ET MARCELLE PERON<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 17</div>`)[0];
+            popup_e49105c93ddd1b7f36b667dfd9a48621.setContent(html_2ec09469878f72a100e1535f5c4058fe);
+        
+
+        marker_72f61786029bfe5383b33aa1c1bcc937.bindPopup(popup_e49105c93ddd1b7f36b667dfd9a48621)
+        ;
+
+        
+    
+    
+            var poly_line_9c301727967d9951565b65d61984a1fe = L.polyline(
+                [[47.669734, -2.986058], [47.67075, -2.988255]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_3cff40088cc5c0c50daad25f09b50e39 = L.marker(
+                [47.670242, -2.9871565],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_90c013414b30e24bfb98ac1f00b04085 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e17\u003c/div\u003e"});
+            marker_3cff40088cc5c0c50daad25f09b50e39.setIcon(div_icon_90c013414b30e24bfb98ac1f00b04085);
+        
+    
+            var marker_1646ff9c18b359056f91944a25041d0c = L.marker(
+                [47.672126, -2.988826],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_92f61d296226de2afd73754c28510bbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1646ff9c18b359056f91944a25041d0c.setIcon(icon_92f61d296226de2afd73754c28510bbf);
+        
+    
+        var popup_05bb159a1e662717464b50c6fcbdb09b = L.popup({"maxWidth": 300});
+
+        
+            var html_5e5e916f0d59b053d2983eb44b3d6401 = $(`<div id="html_5e5e916f0d59b053d2983eb44b3d6401" style="width: 100.0%; height: 100.0%;">Bâtiment: FERME DU PRINTEMPS LOCAUX<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 18</div>`)[0];
+            popup_05bb159a1e662717464b50c6fcbdb09b.setContent(html_5e5e916f0d59b053d2983eb44b3d6401);
+        
+
+        marker_1646ff9c18b359056f91944a25041d0c.bindPopup(popup_05bb159a1e662717464b50c6fcbdb09b)
+        ;
+
+        
+    
+    
+            var poly_line_ee60a3e9631465d06d4e58d0fd0199e8 = L.polyline(
+                [[47.67075, -2.988255], [47.672126, -2.988826]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_3ae3b245313d78475d90c0dadb8cd74d = L.marker(
+                [47.671437999999995, -2.9885405],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_c958250867a9903149de7555cd5a4ba6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e18\u003c/div\u003e"});
+            marker_3ae3b245313d78475d90c0dadb8cd74d.setIcon(div_icon_c958250867a9903149de7555cd5a4ba6);
+        
+    
+            var marker_e0f19068e130987cb9222dbd7b879a0e = L.marker(
+                [47.672126, -2.988826],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_a5c08bb529b8b6097dd0bf40afafb666 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e0f19068e130987cb9222dbd7b879a0e.setIcon(icon_a5c08bb529b8b6097dd0bf40afafb666);
+        
+    
+        var popup_a2739f9b4a345e9f09e0ca801a7dc688 = L.popup({"maxWidth": 300});
+
+        
+            var html_9eaecd711f771afc9fff360f48670e8c = $(`<div id="html_9eaecd711f771afc9fff360f48670e8c" style="width: 100.0%; height: 100.0%;">Bâtiment: STADE DU PRINTEMPS VESTIAIRES<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 19</div>`)[0];
+            popup_a2739f9b4a345e9f09e0ca801a7dc688.setContent(html_9eaecd711f771afc9fff360f48670e8c);
+        
+
+        marker_e0f19068e130987cb9222dbd7b879a0e.bindPopup(popup_a2739f9b4a345e9f09e0ca801a7dc688)
+        ;
+
+        
+    
+    
+            var poly_line_5d3e08862a40cc3c55bba45aa608382c = L.polyline(
+                [[47.672126, -2.988826], [47.672126, -2.988826]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_bba8ae6dbcb1be0e9d1806c1b3f9483e = L.marker(
+                [47.672126, -2.988826],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_b257e2fcdf4ad5341c84d6f50af92b61 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e19\u003c/div\u003e"});
+            marker_bba8ae6dbcb1be0e9d1806c1b3f9483e.setIcon(div_icon_b257e2fcdf4ad5341c84d6f50af92b61);
+        
+    
+            var marker_09b498793a713ac7c08c5253f0f91acc = L.marker(
+                [47.673299, -2.989806],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_f4472fa709e6906e6ceeb76e03223497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09b498793a713ac7c08c5253f0f91acc.setIcon(icon_f4472fa709e6906e6ceeb76e03223497);
+        
+    
+        var popup_81ba1fb29cc73e20d4a797edccc3112d = L.popup({"maxWidth": 300});
+
+        
+            var html_af9e18e1be035cf4127408947e62d9ca = $(`<div id="html_af9e18e1be035cf4127408947e62d9ca" style="width: 100.0%; height: 100.0%;">Bâtiment: BUREAUX DU CTM<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 20</div>`)[0];
+            popup_81ba1fb29cc73e20d4a797edccc3112d.setContent(html_af9e18e1be035cf4127408947e62d9ca);
+        
+
+        marker_09b498793a713ac7c08c5253f0f91acc.bindPopup(popup_81ba1fb29cc73e20d4a797edccc3112d)
+        ;
+
+        
+    
+    
+            var poly_line_50119914418b58ab4cfd274c414d709c = L.polyline(
+                [[47.672126, -2.988826], [47.673299, -2.989806]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_3cde14463a1ebce2e419471bd3c8cf3d = L.marker(
+                [47.6727125, -2.989316],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_0997f68e52462f9a6bab68234d53726b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e20\u003c/div\u003e"});
+            marker_3cde14463a1ebce2e419471bd3c8cf3d.setIcon(div_icon_0997f68e52462f9a6bab68234d53726b);
+        
+    
+            var marker_cab125b3f5f9296c89b5ebe3ab56b783 = L.marker(
+                [47.673299, -2.989806],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_0f736d7038ebbe5c4efde558faadbb4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cab125b3f5f9296c89b5ebe3ab56b783.setIcon(icon_0f736d7038ebbe5c4efde558faadbb4b);
+        
+    
+        var popup_810caba90e0ff532a1d534b8626a1e46 = L.popup({"maxWidth": 300});
+
+        
+            var html_919084d376b5a3b25cca495d43debdb8 = $(`<div id="html_919084d376b5a3b25cca495d43debdb8" style="width: 100.0%; height: 100.0%;">Bâtiment: CENTRE TECHNIQUE MUNICIPAL<br>Tranche de surface: E 2501-5000<br>Numéro d'ordre: 21</div>`)[0];
+            popup_810caba90e0ff532a1d534b8626a1e46.setContent(html_919084d376b5a3b25cca495d43debdb8);
+        
+
+        marker_cab125b3f5f9296c89b5ebe3ab56b783.bindPopup(popup_810caba90e0ff532a1d534b8626a1e46)
+        ;
+
+        
+    
+    
+            var poly_line_c8420c3f88a67ba06745f489882fbcb9 = L.polyline(
+                [[47.673299, -2.989806], [47.673299, -2.989806]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_1968bb86995966ffd0cd15724d7948fb = L.marker(
+                [47.673299, -2.989806],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_4bfa3ea5686322d485304d602c11741f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e21\u003c/div\u003e"});
+            marker_1968bb86995966ffd0cd15724d7948fb.setIcon(div_icon_4bfa3ea5686322d485304d602c11741f);
+        
+    
+            var marker_3a59d513578ad685dfca632258c852a2 = L.marker(
+                [47.672979, -2.990904],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_83729a3058e13390c1b79b8636019f5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a59d513578ad685dfca632258c852a2.setIcon(icon_83729a3058e13390c1b79b8636019f5e);
+        
+    
+        var popup_b33f90ec6c1a2f0d73b74755a3d0f54e = L.popup({"maxWidth": 300});
+
+        
+            var html_d0079a26e4c4b54125bd02dc506823ae = $(`<div id="html_d0079a26e4c4b54125bd02dc506823ae" style="width: 100.0%; height: 100.0%;">Bâtiment: ARGONAUTE<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 22</div>`)[0];
+            popup_b33f90ec6c1a2f0d73b74755a3d0f54e.setContent(html_d0079a26e4c4b54125bd02dc506823ae);
+        
+
+        marker_3a59d513578ad685dfca632258c852a2.bindPopup(popup_b33f90ec6c1a2f0d73b74755a3d0f54e)
+        ;
+
+        
+    
+    
+            var poly_line_f59416d2793c6782d8f995b7b6283cc1 = L.polyline(
+                [[47.673299, -2.989806], [47.672979, -2.990904]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_0369866da3b7edcfad66bf5a4183d9df = L.marker(
+                [47.673139, -2.990355],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_242d02ea2786ed28274a8aaa16f210fa = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e22\u003c/div\u003e"});
+            marker_0369866da3b7edcfad66bf5a4183d9df.setIcon(div_icon_242d02ea2786ed28274a8aaa16f210fa);
+        
+    
+            var marker_7422c4276ce18eee2c703b715d3cab8f = L.marker(
+                [47.671341, -2.990781],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_d6c082eab857c12e0b5a7cc7288592e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7422c4276ce18eee2c703b715d3cab8f.setIcon(icon_d6c082eab857c12e0b5a7cc7288592e4);
+        
+    
+        var popup_0ea063b9054cc9e0fe69a3fc67b193c5 = L.popup({"maxWidth": 300});
+
+        
+            var html_9c2b9a37ca5380255690ded8805f103c = $(`<div id="html_9c2b9a37ca5380255690ded8805f103c" style="width: 100.0%; height: 100.0%;">Bâtiment: BATIMENTS CIMETIERE VILLE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 23</div>`)[0];
+            popup_0ea063b9054cc9e0fe69a3fc67b193c5.setContent(html_9c2b9a37ca5380255690ded8805f103c);
+        
+
+        marker_7422c4276ce18eee2c703b715d3cab8f.bindPopup(popup_0ea063b9054cc9e0fe69a3fc67b193c5)
+        ;
+
+        
+    
+    
+            var poly_line_50632ea41e54c0509b28473c122f1efb = L.polyline(
+                [[47.672979, -2.990904], [47.671341, -2.990781]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_13a8f6c5c5b6c0408c9c758c6cbc5122 = L.marker(
+                [47.67216, -2.9908425000000003],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_d4adc183cec578ea06bdeaf447d154b8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e23\u003c/div\u003e"});
+            marker_13a8f6c5c5b6c0408c9c758c6cbc5122.setIcon(div_icon_d4adc183cec578ea06bdeaf447d154b8);
+        
+    
+            var marker_51ea145cdfd15391605f9b880415c545 = L.marker(
+                [47.670904, -2.992283],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_655c15c2b4cd8d35382a32cecd4a213f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51ea145cdfd15391605f9b880415c545.setIcon(icon_655c15c2b4cd8d35382a32cecd4a213f);
+        
+    
+        var popup_851c60519f840dd4785ec928b785246d = L.popup({"maxWidth": 300});
+
+        
+            var html_f173848dc2112db93bfe74ccc13bf7bf = $(`<div id="html_f173848dc2112db93bfe74ccc13bf7bf" style="width: 100.0%; height: 100.0%;">Bâtiment: LOCAL DES SANS ABRIS SDF<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 24</div>`)[0];
+            popup_851c60519f840dd4785ec928b785246d.setContent(html_f173848dc2112db93bfe74ccc13bf7bf);
+        
+
+        marker_51ea145cdfd15391605f9b880415c545.bindPopup(popup_851c60519f840dd4785ec928b785246d)
+        ;
+
+        
+    
+    
+            var poly_line_b2ba361d76fdeb6990f7a23677b247d7 = L.polyline(
+                [[47.671341, -2.990781], [47.670904, -2.992283]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_73c27cbf142bcdf86c1eb419e762ad33 = L.marker(
+                [47.671122499999996, -2.9915320000000003],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_881cd31adf36ad6bde77e24e9d23e194 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e24\u003c/div\u003e"});
+            marker_73c27cbf142bcdf86c1eb419e762ad33.setIcon(div_icon_881cd31adf36ad6bde77e24e9d23e194);
+        
+    
+            var marker_dffdc8e8776691b112056be9cc7552c6 = L.marker(
+                [47.670566, -2.997601],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_6eaf87ef9be1e3c44c72ca5e8f8def25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dffdc8e8776691b112056be9cc7552c6.setIcon(icon_6eaf87ef9be1e3c44c72ca5e8f8def25);
+        
+    
+        var popup_c8157cff5c86065d64236399f59272ec = L.popup({"maxWidth": 300});
+
+        
+            var html_6fb28dee14d8997c735799be72d49133 = $(`<div id="html_6fb28dee14d8997c735799be72d49133" style="width: 100.0%; height: 100.0%;">Bâtiment: SERVICE ENFANCE ARLEQUIN<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 25</div>`)[0];
+            popup_c8157cff5c86065d64236399f59272ec.setContent(html_6fb28dee14d8997c735799be72d49133);
+        
+
+        marker_dffdc8e8776691b112056be9cc7552c6.bindPopup(popup_c8157cff5c86065d64236399f59272ec)
+        ;
+
+        
+    
+    
+            var poly_line_21298f3a043b506154df12ceddec681e = L.polyline(
+                [[47.670904, -2.992283], [47.670566, -2.997601]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_787490c68d91ee021e6301d15a7e1df9 = L.marker(
+                [47.670735, -2.994942],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_268035677fbe6d074af9c8440574e709 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e25\u003c/div\u003e"});
+            marker_787490c68d91ee021e6301d15a7e1df9.setIcon(div_icon_268035677fbe6d074af9c8440574e709);
+        
+    
+            var marker_937798caa0061d921c14435c0cd1dc16 = L.marker(
+                [47.670566, -2.997601],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_7d735cd495e261539bc741a47000de6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_937798caa0061d921c14435c0cd1dc16.setIcon(icon_7d735cd495e261539bc741a47000de6a);
+        
+    
+        var popup_1a624481c59bc97dc80eda7ba2645ae3 = L.popup({"maxWidth": 300});
+
+        
+            var html_ee830cc254709992dfe2bd883b585baa = $(`<div id="html_ee830cc254709992dfe2bd883b585baa" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE DIWAN<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 26</div>`)[0];
+            popup_1a624481c59bc97dc80eda7ba2645ae3.setContent(html_ee830cc254709992dfe2bd883b585baa);
+        
+
+        marker_937798caa0061d921c14435c0cd1dc16.bindPopup(popup_1a624481c59bc97dc80eda7ba2645ae3)
+        ;
+
+        
+    
+    
+            var poly_line_8427d21974e89b9987bdbc67567c39d3 = L.polyline(
+                [[47.670566, -2.997601], [47.670566, -2.997601]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_01c3d8edd37b0436da7b5abc27ba8499 = L.marker(
+                [47.670566, -2.997601],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_fef8b8ed70dfef2f35f2faa660413b99 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e26\u003c/div\u003e"});
+            marker_01c3d8edd37b0436da7b5abc27ba8499.setIcon(div_icon_fef8b8ed70dfef2f35f2faa660413b99);
+        
+    
+            var marker_2fd499e208306bf31e4df11575bcdaa4 = L.marker(
+                [47.670808, -2.997973],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_222815967a26298e017f951f5b9633a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2fd499e208306bf31e4df11575bcdaa4.setIcon(icon_222815967a26298e017f951f5b9633a7);
+        
+    
+        var popup_446fb171048679fecccc5f94eda845c9 = L.popup({"maxWidth": 300});
+
+        
+            var html_447eaf5ea8fff7afe1641ca7056810d5 = $(`<div id="html_447eaf5ea8fff7afe1641ca7056810d5" style="width: 100.0%; height: 100.0%;">Bâtiment: ESPACE JEUNESSE DU GUMENEN<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 27</div>`)[0];
+            popup_446fb171048679fecccc5f94eda845c9.setContent(html_447eaf5ea8fff7afe1641ca7056810d5);
+        
+
+        marker_2fd499e208306bf31e4df11575bcdaa4.bindPopup(popup_446fb171048679fecccc5f94eda845c9)
+        ;
+
+        
+    
+    
+            var poly_line_6fe77b4384ddb237d3de9df653e77128 = L.polyline(
+                [[47.670566, -2.997601], [47.670808, -2.997973]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_b6542aed7816035b21654c82fe02c8e8 = L.marker(
+                [47.670687, -2.9977869999999998],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_3a2d2d6a21801ea2165a2ba4a810ecdb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e27\u003c/div\u003e"});
+            marker_b6542aed7816035b21654c82fe02c8e8.setIcon(div_icon_3a2d2d6a21801ea2165a2ba4a810ecdb);
+        
+    
+            var marker_bc4c7aba5bf044682cbccd6b91cc8ec0 = L.marker(
+                [47.670922, -2.998992],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_f9f18caed6ec338534f5c372eec24f4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc4c7aba5bf044682cbccd6b91cc8ec0.setIcon(icon_f9f18caed6ec338534f5c372eec24f4d);
+        
+    
+        var popup_0a3a57d9750c86cd39dec862dc13cd3f = L.popup({"maxWidth": 300});
+
+        
+            var html_289e9e37f8477c6e8f13760a77a3817e = $(`<div id="html_289e9e37f8477c6e8f13760a77a3817e" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE ELEMENTAIRE TABARLY<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 28</div>`)[0];
+            popup_0a3a57d9750c86cd39dec862dc13cd3f.setContent(html_289e9e37f8477c6e8f13760a77a3817e);
+        
+
+        marker_bc4c7aba5bf044682cbccd6b91cc8ec0.bindPopup(popup_0a3a57d9750c86cd39dec862dc13cd3f)
+        ;
+
+        
+    
+    
+            var poly_line_1fcf6b977798d05403b7655fd55a29c6 = L.polyline(
+                [[47.670808, -2.997973], [47.670922, -2.998992]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_28f68468241cab999ad853d5837b4d27 = L.marker(
+                [47.670865, -2.9984824999999997],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_1b2f7493682d5d3d3859299f527a5ac7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e28\u003c/div\u003e"});
+            marker_28f68468241cab999ad853d5837b4d27.setIcon(div_icon_1b2f7493682d5d3d3859299f527a5ac7);
+        
+    
+            var marker_6c77216f4ea54a6d98f28b196188059c = L.marker(
+                [47.671258, -2.999332],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_4e64f5edec415f74b30639b71b03f332 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c77216f4ea54a6d98f28b196188059c.setIcon(icon_4e64f5edec415f74b30639b71b03f332);
+        
+    
+        var popup_ded7ba84b1b183a1e3f23d8beee1eef0 = L.popup({"maxWidth": 300});
+
+        
+            var html_40b84a6edb93d658a1d4f3efc1467c9c = $(`<div id="html_40b84a6edb93d658a1d4f3efc1467c9c" style="width: 100.0%; height: 100.0%;">Bâtiment: CENTRE MEDICO SCOLAIRE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 29</div>`)[0];
+            popup_ded7ba84b1b183a1e3f23d8beee1eef0.setContent(html_40b84a6edb93d658a1d4f3efc1467c9c);
+        
+
+        marker_6c77216f4ea54a6d98f28b196188059c.bindPopup(popup_ded7ba84b1b183a1e3f23d8beee1eef0)
+        ;
+
+        
+    
+    
+            var poly_line_acc142d3b726c4f41f4ee4324fe32b3f = L.polyline(
+                [[47.670922, -2.998992], [47.671258, -2.999332]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_aeaae64915aa4b3591954ce821818cd3 = L.marker(
+                [47.67109, -2.999162],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_e636448065416dee7dfff9c2814b9ff6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e29\u003c/div\u003e"});
+            marker_aeaae64915aa4b3591954ce821818cd3.setIcon(div_icon_e636448065416dee7dfff9c2814b9ff6);
+        
+    
+            var marker_98c2be390550b912e6673643241cbf7f = L.marker(
+                [47.671258, -2.999332],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_bb1b44c617b4a8930708235ee968d290 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98c2be390550b912e6673643241cbf7f.setIcon(icon_bb1b44c617b4a8930708235ee968d290);
+        
+    
+        var popup_001f70283d20bd48028a32802590f484 = L.popup({"maxWidth": 300});
+
+        
+            var html_227a6988f3c2fd806194d20fcfb07ceb = $(`<div id="html_227a6988f3c2fd806194d20fcfb07ceb" style="width: 100.0%; height: 100.0%;">Bâtiment: LOCAL DE MUSIQUE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 30</div>`)[0];
+            popup_001f70283d20bd48028a32802590f484.setContent(html_227a6988f3c2fd806194d20fcfb07ceb);
+        
+
+        marker_98c2be390550b912e6673643241cbf7f.bindPopup(popup_001f70283d20bd48028a32802590f484)
+        ;
+
+        
+    
+    
+            var poly_line_7c751c63c82242435d3f9e62fd635466 = L.polyline(
+                [[47.671258, -2.999332], [47.671258, -2.999332]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_e1b3fbe41731ebcb85b3be84dba8d768 = L.marker(
+                [47.671258, -2.999332],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_d7fa071086594dc646009f0b86b54e49 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e30\u003c/div\u003e"});
+            marker_e1b3fbe41731ebcb85b3be84dba8d768.setIcon(div_icon_d7fa071086594dc646009f0b86b54e49);
+        
+    
+            var marker_2140e10d238e12875d8b04c3fb07c5a7 = L.marker(
+                [47.671561, -2.99935],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_e1c189fb7305f4d6164d6a1a0f504dab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2140e10d238e12875d8b04c3fb07c5a7.setIcon(icon_e1c189fb7305f4d6164d6a1a0f504dab);
+        
+    
+        var popup_5a3648bb6a73076df523f8a34b7bdbd5 = L.popup({"maxWidth": 300});
+
+        
+            var html_95d3ac706b1bf111559bb8ea1cf924aa = $(`<div id="html_95d3ac706b1bf111559bb8ea1cf924aa" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE MATERNELLE TABARLY<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 31</div>`)[0];
+            popup_5a3648bb6a73076df523f8a34b7bdbd5.setContent(html_95d3ac706b1bf111559bb8ea1cf924aa);
+        
+
+        marker_2140e10d238e12875d8b04c3fb07c5a7.bindPopup(popup_5a3648bb6a73076df523f8a34b7bdbd5)
+        ;
+
+        
+    
+    
+            var poly_line_2ccc0d234c8dee2dd01d6002fc750204 = L.polyline(
+                [[47.671258, -2.999332], [47.671561, -2.99935]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_1cf591ed2ba606ef9bcda03aa981f066 = L.marker(
+                [47.671409499999996, -2.9993410000000003],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_d8dcf3692aa07a3fc5d3559d5789fc27 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e31\u003c/div\u003e"});
+            marker_1cf591ed2ba606ef9bcda03aa981f066.setIcon(div_icon_d8dcf3692aa07a3fc5d3559d5789fc27);
+        
+    
+            var marker_343bd18f067a499f8ac8d6385c8114a6 = L.marker(
+                [47.671561, -2.99935],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_e6fe7cb30a7f4b5fea76eb0d6f73728b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_343bd18f067a499f8ac8d6385c8114a6.setIcon(icon_e6fe7cb30a7f4b5fea76eb0d6f73728b);
+        
+    
+        var popup_ada2ac28a6913ca46ab0dad9027fb22a = L.popup({"maxWidth": 300});
+
+        
+            var html_3286c2354645f65dd2c944fc69146969 = $(`<div id="html_3286c2354645f65dd2c944fc69146969" style="width: 100.0%; height: 100.0%;">Bâtiment: RESTAURANT MATERNELLE TABARLY<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 32</div>`)[0];
+            popup_ada2ac28a6913ca46ab0dad9027fb22a.setContent(html_3286c2354645f65dd2c944fc69146969);
+        
+
+        marker_343bd18f067a499f8ac8d6385c8114a6.bindPopup(popup_ada2ac28a6913ca46ab0dad9027fb22a)
+        ;
+
+        
+    
+    
+            var poly_line_c1f37b09ba5c5f6f6c581bca5473c53b = L.polyline(
+                [[47.671561, -2.99935], [47.671561, -2.99935]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_c6b56630a06d2a65de083679f9100509 = L.marker(
+                [47.671561, -2.99935],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_bfb28259265e6d2912e497bb109d758e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e32\u003c/div\u003e"});
+            marker_c6b56630a06d2a65de083679f9100509.setIcon(div_icon_bfb28259265e6d2912e497bb109d758e);
+        
+    
+            var marker_1a299503eb939ca1a3d9100e653adb2d = L.marker(
+                [47.6719, -2.999305],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_3dd19b9a05ac4da0aaea8a63df9ab7f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a299503eb939ca1a3d9100e653adb2d.setIcon(icon_3dd19b9a05ac4da0aaea8a63df9ab7f9);
+        
+    
+        var popup_ddbeb3dd9b4c7c5139c3bd0c2e59d76b = L.popup({"maxWidth": 300});
+
+        
+            var html_3bc74c412dce37cff0f137831275538f = $(`<div id="html_3bc74c412dce37cff0f137831275538f" style="width: 100.0%; height: 100.0%;">Bâtiment: LOCAUX CAFE PARENTS<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 33</div>`)[0];
+            popup_ddbeb3dd9b4c7c5139c3bd0c2e59d76b.setContent(html_3bc74c412dce37cff0f137831275538f);
+        
+
+        marker_1a299503eb939ca1a3d9100e653adb2d.bindPopup(popup_ddbeb3dd9b4c7c5139c3bd0c2e59d76b)
+        ;
+
+        
+    
+    
+            var poly_line_86927836ce78ba43dcbc6cbaf08c2731 = L.polyline(
+                [[47.671561, -2.99935], [47.6719, -2.999305]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_f0eb009ea9d475cb731d136d53a5d558 = L.marker(
+                [47.671730499999995, -2.9993275],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_c3228f7fa5d28d4cf09f6fbc750c22d9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e33\u003c/div\u003e"});
+            marker_f0eb009ea9d475cb731d136d53a5d558.setIcon(div_icon_c3228f7fa5d28d4cf09f6fbc750c22d9);
+        
+    
+            var marker_72b302a52da1e38c0c852199aad64df9 = L.marker(
+                [47.6719, -2.999305],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_120800adaf9caf3b6ec86480f1da18ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72b302a52da1e38c0c852199aad64df9.setIcon(icon_120800adaf9caf3b6ec86480f1da18ff);
+        
+    
+        var popup_a904d44cd56912e54711f6d4117f5e6c = L.popup({"maxWidth": 300});
+
+        
+            var html_ff535e79c8ceb552e130ef18fab3af30 = $(`<div id="html_ff535e79c8ceb552e130ef18fab3af30" style="width: 100.0%; height: 100.0%;">Bâtiment: ESPACE ASSOCIATIFS TABARLY<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 34</div>`)[0];
+            popup_a904d44cd56912e54711f6d4117f5e6c.setContent(html_ff535e79c8ceb552e130ef18fab3af30);
+        
+
+        marker_72b302a52da1e38c0c852199aad64df9.bindPopup(popup_a904d44cd56912e54711f6d4117f5e6c)
+        ;
+
+        
+    
+    
+            var poly_line_1845efed17e03a61c6a9696dd5ec640a = L.polyline(
+                [[47.6719, -2.999305], [47.6719, -2.999305]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_d691a286f401371b6e3cb6c8e86eb764 = L.marker(
+                [47.6719, -2.999305],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_8d14539302548feb9360a362811f282c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e34\u003c/div\u003e"});
+            marker_d691a286f401371b6e3cb6c8e86eb764.setIcon(div_icon_8d14539302548feb9360a362811f282c);
+        
+    
+            var marker_e9b5eb49ba9eb453469f39594edbecb9 = L.marker(
+                [47.672075, -2.999509],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_4c8bf264fade667b3ad1d7c3d21430d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9b5eb49ba9eb453469f39594edbecb9.setIcon(icon_4c8bf264fade667b3ad1d7c3d21430d2);
+        
+    
+        var popup_1c4f979a517274ad5ebe31506c4a4ea0 = L.popup({"maxWidth": 300});
+
+        
+            var html_03a4fc24fa070c84e914dc39e48385ee = $(`<div id="html_03a4fc24fa070c84e914dc39e48385ee" style="width: 100.0%; height: 100.0%;">Bâtiment: RESTAURANT ELEMENTAIRE TABARLY<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 35</div>`)[0];
+            popup_1c4f979a517274ad5ebe31506c4a4ea0.setContent(html_03a4fc24fa070c84e914dc39e48385ee);
+        
+
+        marker_e9b5eb49ba9eb453469f39594edbecb9.bindPopup(popup_1c4f979a517274ad5ebe31506c4a4ea0)
+        ;
+
+        
+    
+    
+            var poly_line_c4859794b6f9a3133ef11441ec2c32ab = L.polyline(
+                [[47.6719, -2.999305], [47.672075, -2.999509]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_6b7bb0af7722c758dc9a66784213c636 = L.marker(
+                [47.6719875, -2.999407],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_0d75f417385ef0b753b0177c0ce5b6c7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e35\u003c/div\u003e"});
+            marker_6b7bb0af7722c758dc9a66784213c636.setIcon(div_icon_0d75f417385ef0b753b0177c0ce5b6c7);
+        
+    
+            var marker_2dc90c4b59979a2d8f8488da82d026f2 = L.marker(
+                [47.672339, -2.997553],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_1592edb7f0c24efb1905cf76dff0c49c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2dc90c4b59979a2d8f8488da82d026f2.setIcon(icon_1592edb7f0c24efb1905cf76dff0c49c);
+        
+    
+        var popup_6e20695f679363e3fedee9a3146c5b92 = L.popup({"maxWidth": 300});
+
+        
+            var html_55fb9e40652f5b4442750e766a594124 = $(`<div id="html_55fb9e40652f5b4442750e766a594124" style="width: 100.0%; height: 100.0%;">Bâtiment: MAISON D ANIMATION ET DES LOISIRS<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 36</div>`)[0];
+            popup_6e20695f679363e3fedee9a3146c5b92.setContent(html_55fb9e40652f5b4442750e766a594124);
+        
+
+        marker_2dc90c4b59979a2d8f8488da82d026f2.bindPopup(popup_6e20695f679363e3fedee9a3146c5b92)
+        ;
+
+        
+    
+    
+            var poly_line_d4b579e4e30faa29138979756f7b362d = L.polyline(
+                [[47.672075, -2.999509], [47.672339, -2.997553]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_b61f10dea9c8d074785dd545b47dc052 = L.marker(
+                [47.672207, -2.998531],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_3c126620fd9e7954203af22854d261a1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e36\u003c/div\u003e"});
+            marker_b61f10dea9c8d074785dd545b47dc052.setIcon(div_icon_3c126620fd9e7954203af22854d261a1);
+        
+    
+            var marker_875f1daf68f29aff329353c30972dcea = L.marker(
+                [47.67054, -3.00003],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_190d21352dd780762f0a222d58c72230 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_875f1daf68f29aff329353c30972dcea.setIcon(icon_190d21352dd780762f0a222d58c72230);
+        
+    
+        var popup_7d92f896e0ab9c4423467b22d352d0eb = L.popup({"maxWidth": 300});
+
+        
+            var html_f801dd2b22af6fe688295eaa59b9892e = $(`<div id="html_f801dd2b22af6fe688295eaa59b9892e" style="width: 100.0%; height: 100.0%;">Bâtiment: LOCAUX GOANER<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 37</div>`)[0];
+            popup_7d92f896e0ab9c4423467b22d352d0eb.setContent(html_f801dd2b22af6fe688295eaa59b9892e);
+        
+
+        marker_875f1daf68f29aff329353c30972dcea.bindPopup(popup_7d92f896e0ab9c4423467b22d352d0eb)
+        ;
+
+        
+    
+    
+            var poly_line_6af5f23895c7b52db8a4440b085ce89b = L.polyline(
+                [[47.672339, -2.997553], [47.67054, -3.00003]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_65078e330a8f1e9c8d87409211316ef4 = L.marker(
+                [47.671439500000005, -2.9987915000000003],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_568e2f33c9323804da144bab1b126481 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e37\u003c/div\u003e"});
+            marker_65078e330a8f1e9c8d87409211316ef4.setIcon(div_icon_568e2f33c9323804da144bab1b126481);
+        
+    
+            var marker_810a3942b77d98964d023121383e75af = L.marker(
+                [47.669815, -2.99765],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_02470d61b638c1cabf7597049b608afd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_810a3942b77d98964d023121383e75af.setIcon(icon_02470d61b638c1cabf7597049b608afd);
+        
+    
+        var popup_24bf4588653221017c743890a7d6d444 = L.popup({"maxWidth": 300});
+
+        
+            var html_f87308dc9d024abe0f66ebcf8e32c165 = $(`<div id="html_f87308dc9d024abe0f66ebcf8e32c165" style="width: 100.0%; height: 100.0%;">Bâtiment: Bâtiment modulaire - Espace Jeunesse du Gumenen <br>Tranche de surface: A 0-250<br>Numéro d'ordre: 38</div>`)[0];
+            popup_24bf4588653221017c743890a7d6d444.setContent(html_f87308dc9d024abe0f66ebcf8e32c165);
+        
+
+        marker_810a3942b77d98964d023121383e75af.bindPopup(popup_24bf4588653221017c743890a7d6d444)
+        ;
+
+        
+    
+    
+            var poly_line_f54fcad43fafe1c9d3a8755091fc41de = L.polyline(
+                [[47.67054, -3.00003], [47.669815, -2.99765]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_23eb4900c44ac20f6279e04c58b5dccd = L.marker(
+                [47.6701775, -2.9988400000000004],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_f5af215b987f3d0642256d13935ab42d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e38\u003c/div\u003e"});
+            marker_23eb4900c44ac20f6279e04c58b5dccd.setIcon(div_icon_f5af215b987f3d0642256d13935ab42d);
+        
+    
+            var marker_ac9f398ed3226323fec325a28a56ec5e = L.marker(
+                [47.664751, -2.997738],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_c516693d465a5f9ef62cf32627408d09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac9f398ed3226323fec325a28a56ec5e.setIcon(icon_c516693d465a5f9ef62cf32627408d09);
+        
+    
+        var popup_73028c38676c0455b65afe75e34c2a07 = L.popup({"maxWidth": 300});
+
+        
+            var html_95623ea26ac29cb5ef1e565a89f69ce2 = $(`<div id="html_95623ea26ac29cb5ef1e565a89f69ce2" style="width: 100.0%; height: 100.0%;">Bâtiment: STAND DE TIR<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 39</div>`)[0];
+            popup_73028c38676c0455b65afe75e34c2a07.setContent(html_95623ea26ac29cb5ef1e565a89f69ce2);
+        
+
+        marker_ac9f398ed3226323fec325a28a56ec5e.bindPopup(popup_73028c38676c0455b65afe75e34c2a07)
+        ;
+
+        
+    
+    
+            var poly_line_c7ac77061354411afa8115d03db40efe = L.polyline(
+                [[47.669815, -2.99765], [47.664751, -2.997738]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_e45ffd71a7c65de7409e05790570accb = L.marker(
+                [47.667283, -2.997694],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_64eed74f6e59314f6776909767f96c0d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e39\u003c/div\u003e"});
+            marker_e45ffd71a7c65de7409e05790570accb.setIcon(div_icon_64eed74f6e59314f6776909767f96c0d);
+        
+    
+            var marker_037647a99fefac45ece9db86271821f5 = L.marker(
+                [47.661969, -2.994187],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_f17c782debd1302c2e3841574b6d75c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_037647a99fefac45ece9db86271821f5.setIcon(icon_f17c782debd1302c2e3841574b6d75c1);
+        
+    
+        var popup_b43df49ff7860f0e707a6797f474f4dd = L.popup({"maxWidth": 300});
+
+        
+            var html_ddc6c538ec58e39a991eb42c82616e43 = $(`<div id="html_ddc6c538ec58e39a991eb42c82616e43" style="width: 100.0%; height: 100.0%;">Bâtiment: MAUSOLEE DE CADOUDAL<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 40</div>`)[0];
+            popup_b43df49ff7860f0e707a6797f474f4dd.setContent(html_ddc6c538ec58e39a991eb42c82616e43);
+        
+
+        marker_037647a99fefac45ece9db86271821f5.bindPopup(popup_b43df49ff7860f0e707a6797f474f4dd)
+        ;
+
+        
+    
+    
+            var poly_line_2cf6e1780978c710db1be71853d0945f = L.polyline(
+                [[47.664751, -2.997738], [47.661969, -2.994187]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_76c039509339b0380a55f6ea5e4a10c6 = L.marker(
+                [47.66336, -2.9959625],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_f60fcdd529703a4dd9bbf1e54636f242 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e40\u003c/div\u003e"});
+            marker_76c039509339b0380a55f6ea5e4a10c6.setIcon(div_icon_f60fcdd529703a4dd9bbf1e54636f242);
+        
+    
+            var marker_1b9affbf1f8b819ba1b850e60b8278a7 = L.marker(
+                [47.663724, -2.990003],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_17dd26958084ba38e06e27b71ea821c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b9affbf1f8b819ba1b850e60b8278a7.setIcon(icon_17dd26958084ba38e06e27b71ea821c6);
+        
+    
+        var popup_629a41f6400d16d17101eca8506d7578 = L.popup({"maxWidth": 300});
+
+        
+            var html_070e5482048b481fbb51ef0447379b1c = $(`<div id="html_070e5482048b481fbb51ef0447379b1c" style="width: 100.0%; height: 100.0%;">Bâtiment: CHAPELLE DU RECLUS<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 41</div>`)[0];
+            popup_629a41f6400d16d17101eca8506d7578.setContent(html_070e5482048b481fbb51ef0447379b1c);
+        
+
+        marker_1b9affbf1f8b819ba1b850e60b8278a7.bindPopup(popup_629a41f6400d16d17101eca8506d7578)
+        ;
+
+        
+    
+    
+            var poly_line_6bc177fa65ee7cc83230a7b45d51ae3f = L.polyline(
+                [[47.661969, -2.994187], [47.663724, -2.990003]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_f6b51ea8507352348c98f158ed183861 = L.marker(
+                [47.6628465, -2.992095],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_b9bdd465ea8a16712b604d59a6595318 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e41\u003c/div\u003e"});
+            marker_f6b51ea8507352348c98f158ed183861.setIcon(div_icon_b9bdd465ea8a16712b604d59a6595318);
+        
+    
+            var marker_321bda1d77bba77e8d13e77bc3319fea = L.marker(
+                [47.665147, -2.989331],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_94bd927e61780389f9c124f558c6d9c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_321bda1d77bba77e8d13e77bc3319fea.setIcon(icon_94bd927e61780389f9c124f558c6d9c1);
+        
+    
+        var popup_2152af6988191246ba88d0aefdbfb59f = L.popup({"maxWidth": 300});
+
+        
+            var html_7ea5aeb02659b073ef4a76510c41e71f = $(`<div id="html_7ea5aeb02659b073ef4a76510c41e71f" style="width: 100.0%; height: 100.0%;">Bâtiment: POLE PETITE ENFANCE<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 42</div>`)[0];
+            popup_2152af6988191246ba88d0aefdbfb59f.setContent(html_7ea5aeb02659b073ef4a76510c41e71f);
+        
+
+        marker_321bda1d77bba77e8d13e77bc3319fea.bindPopup(popup_2152af6988191246ba88d0aefdbfb59f)
+        ;
+
+        
+    
+    
+            var poly_line_827c25337ee1c7bda1cc5931bb96a85a = L.polyline(
+                [[47.663724, -2.990003], [47.665147, -2.989331]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_62575547a58cbc49699a0bea1fb44878 = L.marker(
+                [47.664435499999996, -2.989667],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_04f436d677717acdbde8f4d28cf29a29 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e42\u003c/div\u003e"});
+            marker_62575547a58cbc49699a0bea1fb44878.setIcon(div_icon_04f436d677717acdbde8f4d28cf29a29);
+        
+    
+            var marker_2173410942652b7ed23e8058a97a68be = L.marker(
+                [47.666127, -2.989767],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_7bd769cf46bdcd77fca2a980f0b8292b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2173410942652b7ed23e8058a97a68be.setIcon(icon_7bd769cf46bdcd77fca2a980f0b8292b);
+        
+    
+        var popup_d22973e214edd2352e92e93cc5aec3c2 = L.popup({"maxWidth": 300});
+
+        
+            var html_4d14578251feeecb165080f2f56cb76f = $(`<div id="html_4d14578251feeecb165080f2f56cb76f" style="width: 100.0%; height: 100.0%;">Bâtiment: LUDOTHEQUE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 43</div>`)[0];
+            popup_d22973e214edd2352e92e93cc5aec3c2.setContent(html_4d14578251feeecb165080f2f56cb76f);
+        
+
+        marker_2173410942652b7ed23e8058a97a68be.bindPopup(popup_d22973e214edd2352e92e93cc5aec3c2)
+        ;
+
+        
+    
+    
+            var poly_line_85635d0d0f7a0ca239f185b91581c4bb = L.polyline(
+                [[47.665147, -2.989331], [47.666127, -2.989767]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_3e69c5a77e91851304e8efddf9c82121 = L.marker(
+                [47.665637000000004, -2.9895490000000002],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_fa6a2eb0dd2a5e53ddc51b829b172677 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e43\u003c/div\u003e"});
+            marker_3e69c5a77e91851304e8efddf9c82121.setIcon(div_icon_fa6a2eb0dd2a5e53ddc51b829b172677);
+        
+    
+            var marker_d40a6133a31421406ab90a6acc82a228 = L.marker(
+                [47.666048, -2.988009],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_69acdbc0552c525ebe7d4986351ee99e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d40a6133a31421406ab90a6acc82a228.setIcon(icon_69acdbc0552c525ebe7d4986351ee99e);
+        
+    
+        var popup_c5f9c244f5dfd0b1d79f89279a321969 = L.popup({"maxWidth": 300});
+
+        
+            var html_e860dc17d791cfdab53158aa7da29182 = $(`<div id="html_e860dc17d791cfdab53158aa7da29182" style="width: 100.0%; height: 100.0%;">Bâtiment: CHAPELLE DU SAINT ESPRIT<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 44</div>`)[0];
+            popup_c5f9c244f5dfd0b1d79f89279a321969.setContent(html_e860dc17d791cfdab53158aa7da29182);
+        
+
+        marker_d40a6133a31421406ab90a6acc82a228.bindPopup(popup_c5f9c244f5dfd0b1d79f89279a321969)
+        ;
+
+        
+    
+    
+            var poly_line_6d2b80a156bc4655e2f2b267aebc5e01 = L.polyline(
+                [[47.666127, -2.989767], [47.666048, -2.988009]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_9839fecf11550897061e0f09da617ced = L.marker(
+                [47.6660875, -2.988888],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_54efa7839c0a571ecd7f3f6d1c048631 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e44\u003c/div\u003e"});
+            marker_9839fecf11550897061e0f09da617ced.setIcon(div_icon_54efa7839c0a571ecd7f3f6d1c048631);
+        
+    
+            var marker_a78ce8a09a43a2df022410de1ece1364 = L.marker(
+                [47.666048, -2.988009],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_9f0dfa9105e7b8999a81dce80be3baec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a78ce8a09a43a2df022410de1ece1364.setIcon(icon_9f0dfa9105e7b8999a81dce80be3baec);
+        
+    
+        var popup_17f8100fe363ae0eef1ba8185c9e92fc = L.popup({"maxWidth": 300});
+
+        
+            var html_c131de39c45c3e3809b12ec70e91a739 = $(`<div id="html_c131de39c45c3e3809b12ec70e91a739" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGIS COUR CHAPELLE DU ST ESPRIT<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 45</div>`)[0];
+            popup_17f8100fe363ae0eef1ba8185c9e92fc.setContent(html_c131de39c45c3e3809b12ec70e91a739);
+        
+
+        marker_a78ce8a09a43a2df022410de1ece1364.bindPopup(popup_17f8100fe363ae0eef1ba8185c9e92fc)
+        ;
+
+        
+    
+    
+            var poly_line_f17d096e4909361e14c493b706f89a0a = L.polyline(
+                [[47.666048, -2.988009], [47.666048, -2.988009]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_67e0cffbd299fd972f157ab3ad597a84 = L.marker(
+                [47.666048, -2.988009],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_b6a7324591b0eacca6e50468240b7906 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e45\u003c/div\u003e"});
+            marker_67e0cffbd299fd972f157ab3ad597a84.setIcon(div_icon_b6a7324591b0eacca6e50468240b7906);
+        
+    
+            var marker_348ad5bb96753baa6ecf0ae2f0a5d2e6 = L.marker(
+                [47.666048, -2.988009],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_058c6f646c77637a5518758ff23e8408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_348ad5bb96753baa6ecf0ae2f0a5d2e6.setIcon(icon_058c6f646c77637a5518758ff23e8408);
+        
+    
+        var popup_53bdc5619843d5b52a5349b0a44821ed = L.popup({"maxWidth": 300});
+
+        
+            var html_9e2e79cabf1416ad1329be6f807282e0 = $(`<div id="html_9e2e79cabf1416ad1329be6f807282e0" style="width: 100.0%; height: 100.0%;">Bâtiment: ESPACE PIERRE GUILLET<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 46</div>`)[0];
+            popup_53bdc5619843d5b52a5349b0a44821ed.setContent(html_9e2e79cabf1416ad1329be6f807282e0);
+        
+
+        marker_348ad5bb96753baa6ecf0ae2f0a5d2e6.bindPopup(popup_53bdc5619843d5b52a5349b0a44821ed)
+        ;
+
+        
+    
+    
+            var poly_line_1cc5f05f2d07b7f20ae068cf184770ab = L.polyline(
+                [[47.666048, -2.988009], [47.666048, -2.988009]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_63caee01ec7cd7101d006ebfc2904134 = L.marker(
+                [47.666048, -2.988009],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_bf41b02e798a6a9c9d7dec7d3ac4526e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e46\u003c/div\u003e"});
+            marker_63caee01ec7cd7101d006ebfc2904134.setIcon(div_icon_bf41b02e798a6a9c9d7dec7d3ac4526e);
+        
+    
+            var marker_b80648264e9ebb8d1442127b05879b24 = L.marker(
+                [47.66429, -2.985178],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_9a6fca6b20750efc25302780d92f754d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b80648264e9ebb8d1442127b05879b24.setIcon(icon_9a6fca6b20750efc25302780d92f754d);
+        
+    
+        var popup_1649cc902323d60525c8aa9c130bdd26 = L.popup({"maxWidth": 300});
+
+        
+            var html_5104bfb2f4a3e5bf07f8704dd1b3d025 = $(`<div id="html_5104bfb2f4a3e5bf07f8704dd1b3d025" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE MATERNELLE DU LOCH<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 47</div>`)[0];
+            popup_1649cc902323d60525c8aa9c130bdd26.setContent(html_5104bfb2f4a3e5bf07f8704dd1b3d025);
+        
+
+        marker_b80648264e9ebb8d1442127b05879b24.bindPopup(popup_1649cc902323d60525c8aa9c130bdd26)
+        ;
+
+        
+    
+    
+            var poly_line_404543810ee95c4cd81c0f9cf4242cd2 = L.polyline(
+                [[47.666048, -2.988009], [47.66429, -2.985178]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_75d8fe3d17c68711ac05b360a2618168 = L.marker(
+                [47.665169000000006, -2.9865934999999997],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_c62f542d6e595349961568d606e65129 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e47\u003c/div\u003e"});
+            marker_75d8fe3d17c68711ac05b360a2618168.setIcon(div_icon_c62f542d6e595349961568d606e65129);
+        
+    
+            var marker_3111893ffc0a35162712221cf42314f6 = L.marker(
+                [47.66429, -2.985178],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_8c69b068c95f8db8374f09d4e2d017ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3111893ffc0a35162712221cf42314f6.setIcon(icon_8c69b068c95f8db8374f09d4e2d017ef);
+        
+    
+        var popup_fc245e78c25b563931982b8c7e2c0579 = L.popup({"maxWidth": 300});
+
+        
+            var html_93ba486ba9e280f62fffbb254272148d = $(`<div id="html_93ba486ba9e280f62fffbb254272148d" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE ELEMENTAIRE LOCH 2 ET SALLE INFORMATIQUE<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 48</div>`)[0];
+            popup_fc245e78c25b563931982b8c7e2c0579.setContent(html_93ba486ba9e280f62fffbb254272148d);
+        
+
+        marker_3111893ffc0a35162712221cf42314f6.bindPopup(popup_fc245e78c25b563931982b8c7e2c0579)
+        ;
+
+        
+    
+    
+            var poly_line_4a92c250604afad029b6999f3f784416 = L.polyline(
+                [[47.66429, -2.985178], [47.66429, -2.985178]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_b2bbf2114fdf9d787ebbfdc7f40b9bab = L.marker(
+                [47.66429, -2.985178],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_c84a3f8edcac9a2e83b296e828461c5e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e48\u003c/div\u003e"});
+            marker_b2bbf2114fdf9d787ebbfdc7f40b9bab.setIcon(div_icon_c84a3f8edcac9a2e83b296e828461c5e);
+        
+    
+            var marker_56282308bcda22f43deae9bb42b883b2 = L.marker(
+                [47.66429, -2.985178],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_db689cf70e48ffb1227e58994d5963da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56282308bcda22f43deae9bb42b883b2.setIcon(icon_db689cf70e48ffb1227e58994d5963da);
+        
+    
+        var popup_e77c9621920113170840028bb80f6a68 = L.popup({"maxWidth": 300});
+
+        
+            var html_834d40e69288143e84e314a5733ea62d = $(`<div id="html_834d40e69288143e84e314a5733ea62d" style="width: 100.0%; height: 100.0%;">Bâtiment: ALSH LOCH EX ECOLE LOCH 1<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 49</div>`)[0];
+            popup_e77c9621920113170840028bb80f6a68.setContent(html_834d40e69288143e84e314a5733ea62d);
+        
+
+        marker_56282308bcda22f43deae9bb42b883b2.bindPopup(popup_e77c9621920113170840028bb80f6a68)
+        ;
+
+        
+    
+    
+            var poly_line_2f692dee6ad6a44b1cfe296a6493773b = L.polyline(
+                [[47.66429, -2.985178], [47.66429, -2.985178]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_3fdebbaee42873f9abd4327c4fb53794 = L.marker(
+                [47.66429, -2.985178],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_8a289ac4a551c1776cb2f34172345065 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e49\u003c/div\u003e"});
+            marker_3fdebbaee42873f9abd4327c4fb53794.setIcon(div_icon_8a289ac4a551c1776cb2f34172345065);
+        
+    
+            var marker_54e5cc8653c701c68697ecbd802ee8b9 = L.marker(
+                [47.66429, -2.985178],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_94df6bda458533b9e2c8067a5ea509f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_54e5cc8653c701c68697ecbd802ee8b9.setIcon(icon_94df6bda458533b9e2c8067a5ea509f0);
+        
+    
+        var popup_fddca846eba298431114acd29d625180 = L.popup({"maxWidth": 300});
+
+        
+            var html_ac7a3858a06a019b45c3622ab300cf1a = $(`<div id="html_ac7a3858a06a019b45c3622ab300cf1a" style="width: 100.0%; height: 100.0%;">Bâtiment: RESTAURANT SCOLAIRE DU LOCH<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 50</div>`)[0];
+            popup_fddca846eba298431114acd29d625180.setContent(html_ac7a3858a06a019b45c3622ab300cf1a);
+        
+
+        marker_54e5cc8653c701c68697ecbd802ee8b9.bindPopup(popup_fddca846eba298431114acd29d625180)
+        ;
+
+        
+    
+    
+            var poly_line_0d5e64373ac7fa85a7c1afaa349c0655 = L.polyline(
+                [[47.66429, -2.985178], [47.66429, -2.985178]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_e970591807896f21cd5a70e14f5dfec6 = L.marker(
+                [47.66429, -2.985178],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_652b376bef250bf82ced812b34c10337 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e50\u003c/div\u003e"});
+            marker_e970591807896f21cd5a70e14f5dfec6.setIcon(div_icon_652b376bef250bf82ced812b34c10337);
+        
+    
+            var marker_1b1aac3efda25915a0d23455c971336f = L.marker(
+                [47.663595, -2.985382],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_3dfc68d8d0e988d315b0710712db9a34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b1aac3efda25915a0d23455c971336f.setIcon(icon_3dfc68d8d0e988d315b0710712db9a34);
+        
+    
+        var popup_f42d525c0da9bdadd25712d936a5d67c = L.popup({"maxWidth": 300});
+
+        
+            var html_a0ba8e406d1a8a93e84f9c3cfea83541 = $(`<div id="html_a0ba8e406d1a8a93e84f9c3cfea83541" style="width: 100.0%; height: 100.0%;">Bâtiment: R A S RESEAU D AIDE SPECIALISE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 51</div>`)[0];
+            popup_f42d525c0da9bdadd25712d936a5d67c.setContent(html_a0ba8e406d1a8a93e84f9c3cfea83541);
+        
+
+        marker_1b1aac3efda25915a0d23455c971336f.bindPopup(popup_f42d525c0da9bdadd25712d936a5d67c)
+        ;
+
+        
+    
+    
+            var poly_line_720879b1d20fc5420178a64dda6cada6 = L.polyline(
+                [[47.66429, -2.985178], [47.663595, -2.985382]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_272ff2f8dd06af5019bf64832ef22655 = L.marker(
+                [47.663942500000005, -2.98528],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_2f957271c060d322b1e9772cdb7a43a5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e51\u003c/div\u003e"});
+            marker_272ff2f8dd06af5019bf64832ef22655.setIcon(div_icon_2f957271c060d322b1e9772cdb7a43a5);
+        
+    
+            var marker_888245b9bb60b94e72baf9ccd7a1fb78 = L.marker(
+                [47.663595, -2.985382],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_d7b6ec632d1809dde5ad58aeb5f02f6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_888245b9bb60b94e72baf9ccd7a1fb78.setIcon(icon_d7b6ec632d1809dde5ad58aeb5f02f6d);
+        
+    
+        var popup_745b73565da61a4338481c9f00293bd7 = L.popup({"maxWidth": 300});
+
+        
+            var html_f6ad8ba0efd6c2342dcb83915e717f5e = $(`<div id="html_f6ad8ba0efd6c2342dcb83915e717f5e" style="width: 100.0%; height: 100.0%;">Bâtiment: GYMNASE LE VERGER 1<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 52</div>`)[0];
+            popup_745b73565da61a4338481c9f00293bd7.setContent(html_f6ad8ba0efd6c2342dcb83915e717f5e);
+        
+
+        marker_888245b9bb60b94e72baf9ccd7a1fb78.bindPopup(popup_745b73565da61a4338481c9f00293bd7)
+        ;
+
+        
+    
+    
+            var poly_line_3619c6987f1ec1f83d0d52f4e9cdd60c = L.polyline(
+                [[47.663595, -2.985382], [47.663595, -2.985382]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_a818d8f481efbe60d2e9361a5b4e9808 = L.marker(
+                [47.663595, -2.985382],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_c89a2606d99cbb4664c5828d4f150fad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e52\u003c/div\u003e"});
+            marker_a818d8f481efbe60d2e9361a5b4e9808.setIcon(div_icon_c89a2606d99cbb4664c5828d4f150fad);
+        
+    
+            var marker_e6ad818907934ace6cfce606583fb163 = L.marker(
+                [47.663595, -2.985382],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_de9fd59ee47367af87234e7f04867ade = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e6ad818907934ace6cfce606583fb163.setIcon(icon_de9fd59ee47367af87234e7f04867ade);
+        
+    
+        var popup_a713d3eb45baff0ade8119cd38d7d7ea = L.popup({"maxWidth": 300});
+
+        
+            var html_543b62a244c73c8b99d102733825eca4 = $(`<div id="html_543b62a244c73c8b99d102733825eca4" style="width: 100.0%; height: 100.0%;">Bâtiment: GYMNASE LE VERGER 2<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 53</div>`)[0];
+            popup_a713d3eb45baff0ade8119cd38d7d7ea.setContent(html_543b62a244c73c8b99d102733825eca4);
+        
+
+        marker_e6ad818907934ace6cfce606583fb163.bindPopup(popup_a713d3eb45baff0ade8119cd38d7d7ea)
+        ;
+
+        
+    
+    
+            var poly_line_076cb030c3baad4dbd928b879a441658 = L.polyline(
+                [[47.663595, -2.985382], [47.663595, -2.985382]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_9bb613fe8f08cf58f7580446ece0d101 = L.marker(
+                [47.663595, -2.985382],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_e9d4afcb9c4dfd8593ab26bccd5edd85 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e53\u003c/div\u003e"});
+            marker_9bb613fe8f08cf58f7580446ece0d101.setIcon(div_icon_e9d4afcb9c4dfd8593ab26bccd5edd85);
+        
+    
+            var marker_0c68a7ee209a52ceed5a884e7361b145 = L.marker(
+                [47.662705, -2.988012],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_edccd811af2b13081b560ae33b7d2def = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c68a7ee209a52ceed5a884e7361b145.setIcon(icon_edccd811af2b13081b560ae33b7d2def);
+        
+    
+        var popup_46ce47ebc0ad1dac2a6491093aef60b2 = L.popup({"maxWidth": 300});
+
+        
+            var html_6dd85205f6e4d538f58129806b9ab7f0 = $(`<div id="html_6dd85205f6e4d538f58129806b9ab7f0" style="width: 100.0%; height: 100.0%;">Bâtiment: LOCAUX ASSOCIATIFS LE VERGER 3<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 54</div>`)[0];
+            popup_46ce47ebc0ad1dac2a6491093aef60b2.setContent(html_6dd85205f6e4d538f58129806b9ab7f0);
+        
+
+        marker_0c68a7ee209a52ceed5a884e7361b145.bindPopup(popup_46ce47ebc0ad1dac2a6491093aef60b2)
+        ;
+
+        
+    
+    
+            var poly_line_6d72e649bdf6461faf72ae443904160a = L.polyline(
+                [[47.663595, -2.985382], [47.662705, -2.988012]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_1518c9482b2627f65440ff24cf31aac5 = L.marker(
+                [47.66315, -2.986697],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_899cbf997093ad1e4961b811887fda36 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e54\u003c/div\u003e"});
+            marker_1518c9482b2627f65440ff24cf31aac5.setIcon(div_icon_899cbf997093ad1e4961b811887fda36);
+        
+    
+            var marker_0f557f071d9eb4ced70e2b8839d7441e = L.marker(
+                [47.659204, -2.97938],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_31a5763722bc0b6a07181620040aab40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f557f071d9eb4ced70e2b8839d7441e.setIcon(icon_31a5763722bc0b6a07181620040aab40);
+        
+    
+        var popup_97fb167c69f9fb7754976acd097e0452 = L.popup({"maxWidth": 300});
+
+        
+            var html_0963175ec7f0da2b0bec456f9b88ebec = $(`<div id="html_0963175ec7f0da2b0bec456f9b88ebec" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGEMENT D URGENCE 4<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 55</div>`)[0];
+            popup_97fb167c69f9fb7754976acd097e0452.setContent(html_0963175ec7f0da2b0bec456f9b88ebec);
+        
+
+        marker_0f557f071d9eb4ced70e2b8839d7441e.bindPopup(popup_97fb167c69f9fb7754976acd097e0452)
+        ;
+
+        
+    
+    
+            var poly_line_56ba66c976ab22a8bd7aa55e045b6a1e = L.polyline(
+                [[47.662705, -2.988012], [47.659204, -2.97938]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_f9138ca879738df43bc585ca319ae7ee = L.marker(
+                [47.6609545, -2.983696],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_e9c1fb7b5167356fc598df77aeee233c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e55\u003c/div\u003e"});
+            marker_f9138ca879738df43bc585ca319ae7ee.setIcon(div_icon_e9c1fb7b5167356fc598df77aeee233c);
+        
+    
+            var marker_94b28d7a98de2a33ffd9cc95dae3e8ab = L.marker(
+                [47.664202, -2.976811],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_02a60c87474062e3b83a85d9bc34d8f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94b28d7a98de2a33ffd9cc95dae3e8ab.setIcon(icon_02a60c87474062e3b83a85d9bc34d8f3);
+        
+    
+        var popup_4b5e36c1440c6fb84f14f0c308d90047 = L.popup({"maxWidth": 300});
+
+        
+            var html_e9d2c430e35f7060569d524b96aa72ef = $(`<div id="html_e9d2c430e35f7060569d524b96aa72ef" style="width: 100.0%; height: 100.0%;">Bâtiment: MAISON DE QUARTIER ST GOUSTAN<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 56</div>`)[0];
+            popup_4b5e36c1440c6fb84f14f0c308d90047.setContent(html_e9d2c430e35f7060569d524b96aa72ef);
+        
+
+        marker_94b28d7a98de2a33ffd9cc95dae3e8ab.bindPopup(popup_4b5e36c1440c6fb84f14f0c308d90047)
+        ;
+
+        
+    
+    
+            var poly_line_017684798ce381d46dbcc5b327d73231 = L.polyline(
+                [[47.659204, -2.97938], [47.664202, -2.976811]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_6e11ef39d24819ea0e236f149385497a = L.marker(
+                [47.661703, -2.9780955000000002],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_7e1a2d76607ec82b6d9695046e0ae4e1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e56\u003c/div\u003e"});
+            marker_6e11ef39d24819ea0e236f149385497a.setIcon(div_icon_7e1a2d76607ec82b6d9695046e0ae4e1);
+        
+    
+            var marker_1b05986694712f63c4916be426fe615d = L.marker(
+                [47.664202, -2.976811],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_b9a1d01166f2d7fe5dff5e9baa2f0325 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b05986694712f63c4916be426fe615d.setIcon(icon_b9a1d01166f2d7fe5dff5e9baa2f0325);
+        
+    
+        var popup_eb16cd11c3dc8addc49d31ad4b40afcf = L.popup({"maxWidth": 300});
+
+        
+            var html_3674e18376f4ed4f3bb16c835a1b6474 = $(`<div id="html_3674e18376f4ed4f3bb16c835a1b6474" style="width: 100.0%; height: 100.0%;">Bâtiment: CLUB SUBAQUATIQUE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 57</div>`)[0];
+            popup_eb16cd11c3dc8addc49d31ad4b40afcf.setContent(html_3674e18376f4ed4f3bb16c835a1b6474);
+        
+
+        marker_1b05986694712f63c4916be426fe615d.bindPopup(popup_eb16cd11c3dc8addc49d31ad4b40afcf)
+        ;
+
+        
+    
+    
+            var poly_line_940bdc585d15b429cb2e8ecb5ac05a2d = L.polyline(
+                [[47.664202, -2.976811], [47.664202, -2.976811]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_3e894a5bbd70c9e755bdefaa117d5fc3 = L.marker(
+                [47.664202, -2.976811],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_d70c0d1ca2301f964812fa3d3ed1fda8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e57\u003c/div\u003e"});
+            marker_3e894a5bbd70c9e755bdefaa117d5fc3.setIcon(div_icon_d70c0d1ca2301f964812fa3d3ed1fda8);
+        
+    
+            var marker_be256fc85b3d1dcd3c71b26431ce076f = L.marker(
+                [47.664552, -2.978037],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_c16c969dae90e83e150787b5257890ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be256fc85b3d1dcd3c71b26431ce076f.setIcon(icon_c16c969dae90e83e150787b5257890ee);
+        
+    
+        var popup_2fe4306f5a82c4399412547c16cbaf29 = L.popup({"maxWidth": 300});
+
+        
+            var html_e256341f6829be3f0047311210cb8986 = $(`<div id="html_e256341f6829be3f0047311210cb8986" style="width: 100.0%; height: 100.0%;">Bâtiment: BUREAU DU PORT + STOCKAGE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 58</div>`)[0];
+            popup_2fe4306f5a82c4399412547c16cbaf29.setContent(html_e256341f6829be3f0047311210cb8986);
+        
+
+        marker_be256fc85b3d1dcd3c71b26431ce076f.bindPopup(popup_2fe4306f5a82c4399412547c16cbaf29)
+        ;
+
+        
+    
+    
+            var poly_line_2501fcb5309969672f3a7ea415493ce1 = L.polyline(
+                [[47.664202, -2.976811], [47.664552, -2.978037]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_60a254c214914f9073371ca394d152e1 = L.marker(
+                [47.664377, -2.977424],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_69ada76f045615054c9feb377f0ffa39 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e58\u003c/div\u003e"});
+            marker_60a254c214914f9073371ca394d152e1.setIcon(div_icon_69ada76f045615054c9feb377f0ffa39);
+        
+    
+            var marker_e2dbe4f44e20732dead91ccdc2d072d1 = L.marker(
+                [47.664552, -2.978037],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_d677d7aff471b9bc436f13ea6eedf54a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2dbe4f44e20732dead91ccdc2d072d1.setIcon(icon_d677d7aff471b9bc436f13ea6eedf54a);
+        
+    
+        var popup_5f7a304c3da262b7912e088cbd4d50ab = L.popup({"maxWidth": 300});
+
+        
+            var html_940e07db07cd07825c1038d005acd3ca = $(`<div id="html_940e07db07cd07825c1038d005acd3ca" style="width: 100.0%; height: 100.0%;">Bâtiment: CLUB CANOE KAYAK<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 59</div>`)[0];
+            popup_5f7a304c3da262b7912e088cbd4d50ab.setContent(html_940e07db07cd07825c1038d005acd3ca);
+        
+
+        marker_e2dbe4f44e20732dead91ccdc2d072d1.bindPopup(popup_5f7a304c3da262b7912e088cbd4d50ab)
+        ;
+
+        
+    
+    
+            var poly_line_5401be337554262844de972073ce39ce = L.polyline(
+                [[47.664552, -2.978037], [47.664552, -2.978037]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_bf762e205c8ac5fd6e850fae7d0c4521 = L.marker(
+                [47.664552, -2.978037],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_25df5b8cd50d7da1ada75155a68e45c4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e59\u003c/div\u003e"});
+            marker_bf762e205c8ac5fd6e850fae7d0c4521.setIcon(div_icon_25df5b8cd50d7da1ada75155a68e45c4);
+        
+    
+            var marker_32a69697bc5573efe3730b073815f9a3 = L.marker(
+                [47.665098, -2.977253],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_e5475425757afaf85dc8162f1039793b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32a69697bc5573efe3730b073815f9a3.setIcon(icon_e5475425757afaf85dc8162f1039793b);
+        
+    
+        var popup_ff14269aa1b5efd415ed346e7fc1da27 = L.popup({"maxWidth": 300});
+
+        
+            var html_86d7395f3a8d9b33cda23944b1b75b63 = $(`<div id="html_86d7395f3a8d9b33cda23944b1b75b63" style="width: 100.0%; height: 100.0%;">Bâtiment: EGLISE SAINT GOUSTAN<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 60</div>`)[0];
+            popup_ff14269aa1b5efd415ed346e7fc1da27.setContent(html_86d7395f3a8d9b33cda23944b1b75b63);
+        
+
+        marker_32a69697bc5573efe3730b073815f9a3.bindPopup(popup_ff14269aa1b5efd415ed346e7fc1da27)
+        ;
+
+        
+    
+    
+            var poly_line_412f133b5b5ae8531b0efba3e0fcfa24 = L.polyline(
+                [[47.664552, -2.978037], [47.665098, -2.977253]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_5dd4b2413d4c64a6b02d833ea249ad01 = L.marker(
+                [47.664825, -2.977645],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_ed0c2712e139c12177d83c880e81c0cf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e60\u003c/div\u003e"});
+            marker_5dd4b2413d4c64a6b02d833ea249ad01.setIcon(div_icon_ed0c2712e139c12177d83c880e81c0cf);
+        
+    
+            var marker_9e047b002604f91adc86137bca2bd0a2 = L.marker(
+                [47.665737, -2.977278],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_d6a25d0c6d350a36c2376a91e4b2e552 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e047b002604f91adc86137bca2bd0a2.setIcon(icon_d6a25d0c6d350a36c2376a91e4b2e552);
+        
+    
+        var popup_bd5ac37539bbe5fa38d82a9898f80e1a = L.popup({"maxWidth": 300});
+
+        
+            var html_309bb7e379a79e12f409bf4e47f03651 = $(`<div id="html_309bb7e379a79e12f409bf4e47f03651" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE MATERNELLE ST GOUSTAN<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 61</div>`)[0];
+            popup_bd5ac37539bbe5fa38d82a9898f80e1a.setContent(html_309bb7e379a79e12f409bf4e47f03651);
+        
+
+        marker_9e047b002604f91adc86137bca2bd0a2.bindPopup(popup_bd5ac37539bbe5fa38d82a9898f80e1a)
+        ;
+
+        
+    
+    
+            var poly_line_b6bce74b9ce5a48ac5f61e730a51d6b9 = L.polyline(
+                [[47.665098, -2.977253], [47.665737, -2.977278]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_843863ba318c6146fe7fdd856f52cb7c = L.marker(
+                [47.665417500000004, -2.9772655],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_dda30aa855ec3734fa2790809947c3ab = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e61\u003c/div\u003e"});
+            marker_843863ba318c6146fe7fdd856f52cb7c.setIcon(div_icon_dda30aa855ec3734fa2790809947c3ab);
+        
+    
+            var marker_728d8fc3ed84005b66359b756dc4640b = L.marker(
+                [47.665737, -2.977278],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_594eeb6640918ef6f7f3667d2ac7e6a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_728d8fc3ed84005b66359b756dc4640b.setIcon(icon_594eeb6640918ef6f7f3667d2ac7e6a4);
+        
+    
+        var popup_b8e0b96c702bff5fed5cfc98ab0535c7 = L.popup({"maxWidth": 300});
+
+        
+            var html_657aee64c5e904cab44c4853f96e7c49 = $(`<div id="html_657aee64c5e904cab44c4853f96e7c49" style="width: 100.0%; height: 100.0%;">Bâtiment: RESTAURANT ECOLE MATERNELLE SAINT GOUSTAN<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 62</div>`)[0];
+            popup_b8e0b96c702bff5fed5cfc98ab0535c7.setContent(html_657aee64c5e904cab44c4853f96e7c49);
+        
+
+        marker_728d8fc3ed84005b66359b756dc4640b.bindPopup(popup_b8e0b96c702bff5fed5cfc98ab0535c7)
+        ;
+
+        
+    
+    
+            var poly_line_a64e1fcb9b6caa384fb0f1b47bbf88fb = L.polyline(
+                [[47.665737, -2.977278], [47.665737, -2.977278]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_6c0bcfdd4d3adf8a17f2a02a5283eea8 = L.marker(
+                [47.665737, -2.977278],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_5f0c2e1b5330a64886bf1d8bb6098296 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e62\u003c/div\u003e"});
+            marker_6c0bcfdd4d3adf8a17f2a02a5283eea8.setIcon(div_icon_5f0c2e1b5330a64886bf1d8bb6098296);
+        
+    
+            var marker_5d7653c6155b9603e96f832e41fb59eb = L.marker(
+                [47.6659, -2.978307],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_9636b68e4aa771a52a6dc05b5cca7408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d7653c6155b9603e96f832e41fb59eb.setIcon(icon_9636b68e4aa771a52a6dc05b5cca7408);
+        
+    
+        var popup_52f8564d35de22b0bece6b449dd18dd6 = L.popup({"maxWidth": 300});
+
+        
+            var html_247e8240cbe11e1dcf048a8c7b7a1119 = $(`<div id="html_247e8240cbe11e1dcf048a8c7b7a1119" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGEMENT SAINT GOUSTAN<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 63</div>`)[0];
+            popup_52f8564d35de22b0bece6b449dd18dd6.setContent(html_247e8240cbe11e1dcf048a8c7b7a1119);
+        
+
+        marker_5d7653c6155b9603e96f832e41fb59eb.bindPopup(popup_52f8564d35de22b0bece6b449dd18dd6)
+        ;
+
+        
+    
+    
+            var poly_line_d6d9c42b0fd1ee3293f91968f6e9343c = L.polyline(
+                [[47.665737, -2.977278], [47.6659, -2.978307]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_d1823bdd88ef22bd22217b6b4ed0c398 = L.marker(
+                [47.6658185, -2.9777925],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_8a114da6939da8cd9dbbe4f54b47c1a5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e63\u003c/div\u003e"});
+            marker_d1823bdd88ef22bd22217b6b4ed0c398.setIcon(div_icon_8a114da6939da8cd9dbbe4f54b47c1a5);
+        
+    
+            var marker_c24e1d96831945ac45b6d1d5ddc2fd9b = L.marker(
+                [47.671457, -2.977283],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_75253fd1c079e7e60cc0b15282e62dc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c24e1d96831945ac45b6d1d5ddc2fd9b.setIcon(icon_75253fd1c079e7e60cc0b15282e62dc3);
+        
+    
+        var popup_8225f19e9f89060c5b656308f561ca6b = L.popup({"maxWidth": 300});
+
+        
+            var html_ba10fa78642e89f35adb51fbda231eae = $(`<div id="html_ba10fa78642e89f35adb51fbda231eae" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGEMENTS DU LOCH<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 64</div>`)[0];
+            popup_8225f19e9f89060c5b656308f561ca6b.setContent(html_ba10fa78642e89f35adb51fbda231eae);
+        
+
+        marker_c24e1d96831945ac45b6d1d5ddc2fd9b.bindPopup(popup_8225f19e9f89060c5b656308f561ca6b)
+        ;
+
+        
+    
+    
+            var poly_line_d780edcb898b0533372cb309ab7a73bd = L.polyline(
+                [[47.6659, -2.978307], [47.671457, -2.977283]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_b964a0074bf985e6d0394db8847e22c8 = L.marker(
+                [47.6686785, -2.977795],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_d250962af09246784e4d4c35a791e950 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e64\u003c/div\u003e"});
+            marker_b964a0074bf985e6d0394db8847e22c8.setIcon(div_icon_d250962af09246784e4d4c35a791e950);
+        
+    
+            var marker_ed9cc77fc134d0363cb3fd00a5f7029e = L.marker(
+                [47.672164, -2.982211],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_8e2f7ef354eb9922aeed8f5040dadaf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed9cc77fc134d0363cb3fd00a5f7029e.setIcon(icon_8e2f7ef354eb9922aeed8f5040dadaf0);
+        
+    
+        var popup_06cfa0ad56cfce52d7f04613dc169519 = L.popup({"maxWidth": 300});
+
+        
+            var html_97b050f28b36547ccbd85b53c266c43b = $(`<div id="html_97b050f28b36547ccbd85b53c266c43b" style="width: 100.0%; height: 100.0%;">Bâtiment: SALLE MULTI FONCTION LA FORET EDMA FROGIER<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 65</div>`)[0];
+            popup_06cfa0ad56cfce52d7f04613dc169519.setContent(html_97b050f28b36547ccbd85b53c266c43b);
+        
+
+        marker_ed9cc77fc134d0363cb3fd00a5f7029e.bindPopup(popup_06cfa0ad56cfce52d7f04613dc169519)
+        ;
+
+        
+    
+    
+            var poly_line_3d8f80d42ec458723b132b19bd4b758a = L.polyline(
+                [[47.671457, -2.977283], [47.672164, -2.982211]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_8e55ad3875dbe71ac5961aa886bfef3d = L.marker(
+                [47.6718105, -2.9797469999999997],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_cfceeb2a523ddf88d9a22a9079a960c5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e65\u003c/div\u003e"});
+            marker_8e55ad3875dbe71ac5961aa886bfef3d.setIcon(div_icon_cfceeb2a523ddf88d9a22a9079a960c5);
+        
+    
+            var marker_02c9e5602bc5ca07f096fcdd82ebf0ff = L.marker(
+                [47.672164, -2.982211],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_94a4184143ce16d3bca84aa2f9c3c757 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02c9e5602bc5ca07f096fcdd82ebf0ff.setIcon(icon_94a4184143ce16d3bca84aa2f9c3c757);
+        
+    
+        var popup_7bd4ae574b04f9d231b6d45e4c9c40a6 = L.popup({"maxWidth": 300});
+
+        
+            var html_839d1e21f3cc06fb300ede4212e9782f = $(`<div id="html_839d1e21f3cc06fb300ede4212e9782f" style="width: 100.0%; height: 100.0%;">Bâtiment: STADE DE RUGBY VESTIAIRES<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 66</div>`)[0];
+            popup_7bd4ae574b04f9d231b6d45e4c9c40a6.setContent(html_839d1e21f3cc06fb300ede4212e9782f);
+        
+
+        marker_02c9e5602bc5ca07f096fcdd82ebf0ff.bindPopup(popup_7bd4ae574b04f9d231b6d45e4c9c40a6)
+        ;
+
+        
+    
+    
+            var poly_line_a34accaf2ba5512cb26418f8a0b1c585 = L.polyline(
+                [[47.672164, -2.982211], [47.672164, -2.982211]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_5298f994c8e8297be520ecf0ab72ea18 = L.marker(
+                [47.672164, -2.982211],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_304e8737592b211fe3d0a74fbe4ef811 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e66\u003c/div\u003e"});
+            marker_5298f994c8e8297be520ecf0ab72ea18.setIcon(div_icon_304e8737592b211fe3d0a74fbe4ef811);
+        
+    
+            var marker_4405ad68fd34ce82e16d6cffbcbcb462 = L.marker(
+                [47.672164, -2.982211],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_cec372deeae438371d7dab512c7267a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4405ad68fd34ce82e16d6cffbcbcb462.setIcon(icon_cec372deeae438371d7dab512c7267a6);
+        
+    
+        var popup_f1abe3980063f1e4f82183662b085a6c = L.popup({"maxWidth": 300});
+
+        
+            var html_80128c8adaeab69b7fb4795b508432a3 = $(`<div id="html_80128c8adaeab69b7fb4795b508432a3" style="width: 100.0%; height: 100.0%;">Bâtiment: ESPACE SPORT D ADRESSE<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 67</div>`)[0];
+            popup_f1abe3980063f1e4f82183662b085a6c.setContent(html_80128c8adaeab69b7fb4795b508432a3);
+        
+
+        marker_4405ad68fd34ce82e16d6cffbcbcb462.bindPopup(popup_f1abe3980063f1e4f82183662b085a6c)
+        ;
+
+        
+    
+    
+            var poly_line_ad7b0f67022e96b53436513795b921fa = L.polyline(
+                [[47.672164, -2.982211], [47.672164, -2.982211]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_a435d0141e26d70408b84113d2ed4fac = L.marker(
+                [47.672164, -2.982211],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_6f2c13c7f1ab8b0babe441e3301d5b08 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e67\u003c/div\u003e"});
+            marker_a435d0141e26d70408b84113d2ed4fac.setIcon(div_icon_6f2c13c7f1ab8b0babe441e3301d5b08);
+        
+    
+            var marker_a049d829ab1bc3683e56a5ca16681364 = L.marker(
+                [47.672164, -2.982211],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_9c08670156a0e4d889c11f6821efc5b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a049d829ab1bc3683e56a5ca16681364.setIcon(icon_9c08670156a0e4d889c11f6821efc5b1);
+        
+    
+        var popup_d7ae16b4f1fe810bdb4b76229d76c4b5 = L.popup({"maxWidth": 300});
+
+        
+            var html_0180feb18f1cf726edb60261bd295114 = $(`<div id="html_0180feb18f1cf726edb60261bd295114" style="width: 100.0%; height: 100.0%;">Bâtiment: VESTIAIRES STADE TY COAT<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 68</div>`)[0];
+            popup_d7ae16b4f1fe810bdb4b76229d76c4b5.setContent(html_0180feb18f1cf726edb60261bd295114);
+        
+
+        marker_a049d829ab1bc3683e56a5ca16681364.bindPopup(popup_d7ae16b4f1fe810bdb4b76229d76c4b5)
+        ;
+
+        
+    
+    
+            var poly_line_7ee4027db87eeae0084d5283b8b46da5 = L.polyline(
+                [[47.672164, -2.982211], [47.672164, -2.982211]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_25f81397f53a4a3c5ba02a81e3dc39dd = L.marker(
+                [47.672164, -2.982211],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_4528cfdff421334cbb0809d92ce8b48d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e68\u003c/div\u003e"});
+            marker_25f81397f53a4a3c5ba02a81e3dc39dd.setIcon(div_icon_4528cfdff421334cbb0809d92ce8b48d);
+        
+    
+            var marker_6e9c8c71657add9e040b5da09a6206eb = L.marker(
+                [47.674248, -2.985295],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_227fd0ee9ef9c3aa1c3aaa811a259be4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e9c8c71657add9e040b5da09a6206eb.setIcon(icon_227fd0ee9ef9c3aa1c3aaa811a259be4);
+        
+    
+        var popup_e1c90733c739724c43945e6cc8f37178 = L.popup({"maxWidth": 300});
+
+        
+            var html_46fb0b2c5fdfd5594e1262495c8ad665 = $(`<div id="html_46fb0b2c5fdfd5594e1262495c8ad665" style="width: 100.0%; height: 100.0%;">Bâtiment: Ferme maraîchère Rostevel<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 69</div>`)[0];
+            popup_e1c90733c739724c43945e6cc8f37178.setContent(html_46fb0b2c5fdfd5594e1262495c8ad665);
+        
+
+        marker_6e9c8c71657add9e040b5da09a6206eb.bindPopup(popup_e1c90733c739724c43945e6cc8f37178)
+        ;
+
+        
+    
+    
+            var poly_line_2765702087d286ad4d9cabfab3171c18 = L.polyline(
+                [[47.672164, -2.982211], [47.674248, -2.985295]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_bf0a9e7e849f87c8736474df8b13472b = L.marker(
+                [47.673206, -2.983753],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_6c8d3456868d8094f1ea1a6bbf3c4e06 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e69\u003c/div\u003e"});
+            marker_bf0a9e7e849f87c8736474df8b13472b.setIcon(div_icon_6c8d3456868d8094f1ea1a6bbf3c4e06);
+        
+    
+            var marker_374b1df329492cf49a7dc0dba3d8e21b = L.marker(
+                [47.676865, -2.993088],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_695dd6ed6d5d500a240ad59d51573c4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_374b1df329492cf49a7dc0dba3d8e21b.setIcon(icon_695dd6ed6d5d500a240ad59d51573c4b);
+        
+    
+        var popup_1806bb247fc090e6f6c50072a5a8d9eb = L.popup({"maxWidth": 300});
+
+        
+            var html_c5cdd57d044585448b7ac465c539323c = $(`<div id="html_c5cdd57d044585448b7ac465c539323c" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE ELEMENTAIRE ROLLO 1<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 70</div>`)[0];
+            popup_1806bb247fc090e6f6c50072a5a8d9eb.setContent(html_c5cdd57d044585448b7ac465c539323c);
+        
+
+        marker_374b1df329492cf49a7dc0dba3d8e21b.bindPopup(popup_1806bb247fc090e6f6c50072a5a8d9eb)
+        ;
+
+        
+    
+    
+            var poly_line_251af1607bf3da73ba1e36b5027b9443 = L.polyline(
+                [[47.674248, -2.985295], [47.676865, -2.993088]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_1a977e62d3d49e3cc2435de72776a612 = L.marker(
+                [47.6755565, -2.9891915],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_49cffce0938467b134e162200441c365 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e70\u003c/div\u003e"});
+            marker_1a977e62d3d49e3cc2435de72776a612.setIcon(div_icon_49cffce0938467b134e162200441c365);
+        
+    
+            var marker_166301054f434775891dceaafa8b7d22 = L.marker(
+                [47.676865, -2.993088],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_a5f6b1c30cf8c61e791fc9d4c43a25e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_166301054f434775891dceaafa8b7d22.setIcon(icon_a5f6b1c30cf8c61e791fc9d4c43a25e6);
+        
+    
+        var popup_3696a653dd15d5f1994f4f219763302f = L.popup({"maxWidth": 300});
+
+        
+            var html_7f8780b0794bd31543225720552d3ac6 = $(`<div id="html_7f8780b0794bd31543225720552d3ac6" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE ELEMENTAIRE ROLLO 2<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 71</div>`)[0];
+            popup_3696a653dd15d5f1994f4f219763302f.setContent(html_7f8780b0794bd31543225720552d3ac6);
+        
+
+        marker_166301054f434775891dceaafa8b7d22.bindPopup(popup_3696a653dd15d5f1994f4f219763302f)
+        ;
+
+        
+    
+    
+            var poly_line_4b1a0283dffb7fd723302096f874f489 = L.polyline(
+                [[47.676865, -2.993088], [47.676865, -2.993088]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_1f717e4c5d4e85e5dbeb715085c867ca = L.marker(
+                [47.676865, -2.993088],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_823bc75529e948cf90235e2b46a8f7ef = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e71\u003c/div\u003e"});
+            marker_1f717e4c5d4e85e5dbeb715085c867ca.setIcon(div_icon_823bc75529e948cf90235e2b46a8f7ef);
+        
+    
+            var marker_4d956c900cbf85566f0496afd26497be = L.marker(
+                [47.676865, -2.993088],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_1a4aafe13614745e8b979102eb01195e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4d956c900cbf85566f0496afd26497be.setIcon(icon_1a4aafe13614745e8b979102eb01195e);
+        
+    
+        var popup_e4d1815d315b1a73d1bfd0026079d0bf = L.popup({"maxWidth": 300});
+
+        
+            var html_fb7892009d74bf12cf44f2f64a16cb6d = $(`<div id="html_fb7892009d74bf12cf44f2f64a16cb6d" style="width: 100.0%; height: 100.0%;">Bâtiment: RESTAURANT SCOLAIRE ROLLO<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 72</div>`)[0];
+            popup_e4d1815d315b1a73d1bfd0026079d0bf.setContent(html_fb7892009d74bf12cf44f2f64a16cb6d);
+        
+
+        marker_4d956c900cbf85566f0496afd26497be.bindPopup(popup_e4d1815d315b1a73d1bfd0026079d0bf)
+        ;
+
+        
+    
+    
+            var poly_line_e7b6dd6d863c4459980268dbbfbc56df = L.polyline(
+                [[47.676865, -2.993088], [47.676865, -2.993088]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_871b5e0ae3f708bf88b995ce4ec9dbf8 = L.marker(
+                [47.676865, -2.993088],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_a65968ee75b9ea77d0a76825e4441018 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e72\u003c/div\u003e"});
+            marker_871b5e0ae3f708bf88b995ce4ec9dbf8.setIcon(div_icon_a65968ee75b9ea77d0a76825e4441018);
+        
+    
+            var marker_e9f2f745d5709b9a530adf00614d8efb = L.marker(
+                [47.676646, -2.993879],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_7f90fda145739f74988688c158b25278 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9f2f745d5709b9a530adf00614d8efb.setIcon(icon_7f90fda145739f74988688c158b25278);
+        
+    
+        var popup_a669042a897a996dba91f2a0c9206b44 = L.popup({"maxWidth": 300});
+
+        
+            var html_1cf0d17f8c0287e1ea58de4a03ba996f = $(`<div id="html_1cf0d17f8c0287e1ea58de4a03ba996f" style="width: 100.0%; height: 100.0%;">Bâtiment: ECOLE MATERNELLE ROLLO<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 73</div>`)[0];
+            popup_a669042a897a996dba91f2a0c9206b44.setContent(html_1cf0d17f8c0287e1ea58de4a03ba996f);
+        
+
+        marker_e9f2f745d5709b9a530adf00614d8efb.bindPopup(popup_a669042a897a996dba91f2a0c9206b44)
+        ;
+
+        
+    
+    
+            var poly_line_14b3fbdb3fc77de3d9522808b48bc441 = L.polyline(
+                [[47.676865, -2.993088], [47.676646, -2.993879]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_92864a55e43ad0b546af427131537d4a = L.marker(
+                [47.6767555, -2.9934835],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_5359de266a4f6b6d9ef9854b87373781 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e73\u003c/div\u003e"});
+            marker_92864a55e43ad0b546af427131537d4a.setIcon(div_icon_5359de266a4f6b6d9ef9854b87373781);
+        
+    
+            var marker_ea47fa07eb5ebd896db2324f0d351109 = L.marker(
+                [47.676646, -2.993879],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_b017e3658e1692397c901d1b8943d606 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea47fa07eb5ebd896db2324f0d351109.setIcon(icon_b017e3658e1692397c901d1b8943d606);
+        
+    
+        var popup_b9ccee4a9a5530ea44222c485a3c1017 = L.popup({"maxWidth": 300});
+
+        
+            var html_6c5a9e44f6e3f85690edf4e0753bfd4b = $(`<div id="html_6c5a9e44f6e3f85690edf4e0753bfd4b" style="width: 100.0%; height: 100.0%;">Bâtiment: ALSH ROLLO<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 74</div>`)[0];
+            popup_b9ccee4a9a5530ea44222c485a3c1017.setContent(html_6c5a9e44f6e3f85690edf4e0753bfd4b);
+        
+
+        marker_ea47fa07eb5ebd896db2324f0d351109.bindPopup(popup_b9ccee4a9a5530ea44222c485a3c1017)
+        ;
+
+        
+    
+    
+            var poly_line_143415ef1a4b68493715b8992db7608f = L.polyline(
+                [[47.676646, -2.993879], [47.676646, -2.993879]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_7dea26f8c297428171633d32074af0fb = L.marker(
+                [47.676646, -2.993879],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_4ca7c0558fb33f79e4bcee363e83ee8f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e74\u003c/div\u003e"});
+            marker_7dea26f8c297428171633d32074af0fb.setIcon(div_icon_4ca7c0558fb33f79e4bcee363e83ee8f);
+        
+    
+            var marker_c6aab617f27d1b3a003161583cf0cfc1 = L.marker(
+                [47.677472, -2.99679],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_0910ae101a366dfd0b73036251f00444 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6aab617f27d1b3a003161583cf0cfc1.setIcon(icon_0910ae101a366dfd0b73036251f00444);
+        
+    
+        var popup_741a8f748394397a9b7ec2794c648b70 = L.popup({"maxWidth": 300});
+
+        
+            var html_a874c23009362c65d9b643536ec30ae2 = $(`<div id="html_a874c23009362c65d9b643536ec30ae2" style="width: 100.0%; height: 100.0%;">Bâtiment: LOCAUX ASS ROLLO<br>Tranche de surface: D 1001-2500<br>Numéro d'ordre: 75</div>`)[0];
+            popup_741a8f748394397a9b7ec2794c648b70.setContent(html_a874c23009362c65d9b643536ec30ae2);
+        
+
+        marker_c6aab617f27d1b3a003161583cf0cfc1.bindPopup(popup_741a8f748394397a9b7ec2794c648b70)
+        ;
+
+        
+    
+    
+            var poly_line_b1f72a357bd266311354cc83449dfbe4 = L.polyline(
+                [[47.676646, -2.993879], [47.677472, -2.99679]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_a0a15bd1372ef22677e16ce4fc0dbac1 = L.marker(
+                [47.677059, -2.9953345000000002],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_eda3ad1ee3b1cad862dfdcc72b092527 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e75\u003c/div\u003e"});
+            marker_a0a15bd1372ef22677e16ce4fc0dbac1.setIcon(div_icon_eda3ad1ee3b1cad862dfdcc72b092527);
+        
+    
+            var marker_a196a9bb3416549a95baaca8c0932ff0 = L.marker(
+                [47.677472, -2.99679],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_ed09ebe4ec85a00dd7c05f6f07c61fe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a196a9bb3416549a95baaca8c0932ff0.setIcon(icon_ed09ebe4ec85a00dd7c05f6f07c61fe9);
+        
+    
+        var popup_e4a29197863fe98236764252d2b0c9c2 = L.popup({"maxWidth": 300});
+
+        
+            var html_33894512bbcd44fa6154ba3c3058f0a9 = $(`<div id="html_33894512bbcd44fa6154ba3c3058f0a9" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGEMENT ROLLO II<br>Tranche de surface: B 251-500<br>Numéro d'ordre: 76</div>`)[0];
+            popup_e4a29197863fe98236764252d2b0c9c2.setContent(html_33894512bbcd44fa6154ba3c3058f0a9);
+        
+
+        marker_a196a9bb3416549a95baaca8c0932ff0.bindPopup(popup_e4a29197863fe98236764252d2b0c9c2)
+        ;
+
+        
+    
+    
+            var poly_line_ec032453ee22e3e359661610990013da = L.polyline(
+                [[47.677472, -2.99679], [47.677472, -2.99679]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_4632381f97a77931885df75d08dedc81 = L.marker(
+                [47.677472, -2.99679],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_b477b54778a39efa70dfeb22fec91741 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e76\u003c/div\u003e"});
+            marker_4632381f97a77931885df75d08dedc81.setIcon(div_icon_b477b54778a39efa70dfeb22fec91741);
+        
+    
+            var marker_49dd146b26adf68542a8fc7dcf7791a7 = L.marker(
+                [47.676093, -2.999028],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_89a038fcb11ef1fa322322e14dce10bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49dd146b26adf68542a8fc7dcf7791a7.setIcon(icon_89a038fcb11ef1fa322322e14dce10bd);
+        
+    
+        var popup_6b0aaa29b63564a6c684c44b38d8cf75 = L.popup({"maxWidth": 300});
+
+        
+            var html_8ed5942ef2a732c4aaf4f9f46a0b8f61 = $(`<div id="html_8ed5942ef2a732c4aaf4f9f46a0b8f61" style="width: 100.0%; height: 100.0%;">Bâtiment: STADE CHARLES DE BLOIS VESTIARIES<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 77</div>`)[0];
+            popup_6b0aaa29b63564a6c684c44b38d8cf75.setContent(html_8ed5942ef2a732c4aaf4f9f46a0b8f61);
+        
+
+        marker_49dd146b26adf68542a8fc7dcf7791a7.bindPopup(popup_6b0aaa29b63564a6c684c44b38d8cf75)
+        ;
+
+        
+    
+    
+            var poly_line_0e17638bdfb3af23e77dcf5a07e5f6c3 = L.polyline(
+                [[47.677472, -2.99679], [47.676093, -2.999028]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_48559d79818b502e3d07621dc13b53f2 = L.marker(
+                [47.6767825, -2.997909],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_a7b81390f033573f9a749354fc927289 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e77\u003c/div\u003e"});
+            marker_48559d79818b502e3d07621dc13b53f2.setIcon(div_icon_a7b81390f033573f9a749354fc927289);
+        
+    
+            var marker_0ff356579565cde8d0be6cea69dfb011 = L.marker(
+                [47.679717, -2.999639],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_5faff6c702e5389d5528077db8a7d033 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ff356579565cde8d0be6cea69dfb011.setIcon(icon_5faff6c702e5389d5528077db8a7d033);
+        
+    
+        var popup_994431760a791161407bfdd5903ab7d8 = L.popup({"maxWidth": 300});
+
+        
+            var html_683d4e02952274d762f1d88a4f7d2d26 = $(`<div id="html_683d4e02952274d762f1d88a4f7d2d26" style="width: 100.0%; height: 100.0%;">Bâtiment: FABLAB<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 78</div>`)[0];
+            popup_994431760a791161407bfdd5903ab7d8.setContent(html_683d4e02952274d762f1d88a4f7d2d26);
+        
+
+        marker_0ff356579565cde8d0be6cea69dfb011.bindPopup(popup_994431760a791161407bfdd5903ab7d8)
+        ;
+
+        
+    
+    
+            var poly_line_016433a0b2d609b024bf6304b4f9bd0c = L.polyline(
+                [[47.676093, -2.999028], [47.679717, -2.999639]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_a65b13a9e1558165ee31890897d237e3 = L.marker(
+                [47.677904999999996, -2.9993335],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_b6d3c88e3a13d428a70546fff92f900c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e78\u003c/div\u003e"});
+            marker_a65b13a9e1558165ee31890897d237e3.setIcon(div_icon_b6d3c88e3a13d428a70546fff92f900c);
+        
+    
+            var marker_3585e2e8fadc01cd6d947b42ca02c3ef = L.marker(
+                [47.679654, -2.997752],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_18631d2819e1e2fd6f537441166e4f60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3585e2e8fadc01cd6d947b42ca02c3ef.setIcon(icon_18631d2819e1e2fd6f537441166e4f60);
+        
+    
+        var popup_fe69fe2547c9883e5ceb4ce2d1510272 = L.popup({"maxWidth": 300});
+
+        
+            var html_d6413b97f6f70cd8cb198c3fb652a01f = $(`<div id="html_d6413b97f6f70cd8cb198c3fb652a01f" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGEMENT D URGENCE<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 79</div>`)[0];
+            popup_fe69fe2547c9883e5ceb4ce2d1510272.setContent(html_d6413b97f6f70cd8cb198c3fb652a01f);
+        
+
+        marker_3585e2e8fadc01cd6d947b42ca02c3ef.bindPopup(popup_fe69fe2547c9883e5ceb4ce2d1510272)
+        ;
+
+        
+    
+    
+            var poly_line_925eefd00c31783f1d1e2988f537b7e4 = L.polyline(
+                [[47.679717, -2.999639], [47.679654, -2.997752]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_d863399404ddf5a18457540665a3459f = L.marker(
+                [47.6796855, -2.9986955],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_97fb1d29ec1c589039aeb4904f60f9c3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e79\u003c/div\u003e"});
+            marker_d863399404ddf5a18457540665a3459f.setIcon(div_icon_97fb1d29ec1c589039aeb4904f60f9c3);
+        
+    
+            var marker_20f7084f9917d874c15f61e502c759c6 = L.marker(
+                [47.679711, -3.005933],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_7dc21f633edb7478270ca8636be9673a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20f7084f9917d874c15f61e502c759c6.setIcon(icon_7dc21f633edb7478270ca8636be9673a);
+        
+    
+        var popup_b2034dc8bbaaa0ac91360cb09b372a8f = L.popup({"maxWidth": 300});
+
+        
+            var html_0bd6a9ebdf18ca0b1c6d1e4a8fc0cd25 = $(`<div id="html_0bd6a9ebdf18ca0b1c6d1e4a8fc0cd25" style="width: 100.0%; height: 100.0%;">Bâtiment: STADE DU DEPOT SNCF VESTIAIRES<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 80</div>`)[0];
+            popup_b2034dc8bbaaa0ac91360cb09b372a8f.setContent(html_0bd6a9ebdf18ca0b1c6d1e4a8fc0cd25);
+        
+
+        marker_20f7084f9917d874c15f61e502c759c6.bindPopup(popup_b2034dc8bbaaa0ac91360cb09b372a8f)
+        ;
+
+        
+    
+    
+            var poly_line_dd34db473a00a8c3473a3d0b8d9f23bb = L.polyline(
+                [[47.679654, -2.997752], [47.679711, -3.005933]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_2bad1b294a0b7bf7aa71a8ea2d99206c = L.marker(
+                [47.6796825, -3.0018425000000004],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_60b573fc37db76cbe502118b332960da = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e80\u003c/div\u003e"});
+            marker_2bad1b294a0b7bf7aa71a8ea2d99206c.setIcon(div_icon_60b573fc37db76cbe502118b332960da);
+        
+    
+            var marker_50173c48f46aa3b01814248df0f6e5dd = L.marker(
+                [47.558129, -2.931624],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_5a717489902740d6972c6671562cd33c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_50173c48f46aa3b01814248df0f6e5dd.setIcon(icon_5a717489902740d6972c6671562cd33c);
+        
+    
+        var popup_4b4eed3912201b6e3c9ffd61b638c0a8 = L.popup({"maxWidth": 300});
+
+        
+            var html_51dbacc58eab68c30d9361c26f998c83 = $(`<div id="html_51dbacc58eab68c30d9361c26f998c83" style="width: 100.0%; height: 100.0%;">Bâtiment: LOGEMENT KER YVONNICK<br>Tranche de surface: A 0-250<br>Numéro d'ordre: 81</div>`)[0];
+            popup_4b4eed3912201b6e3c9ffd61b638c0a8.setContent(html_51dbacc58eab68c30d9361c26f998c83);
+        
+
+        marker_50173c48f46aa3b01814248df0f6e5dd.bindPopup(popup_4b4eed3912201b6e3c9ffd61b638c0a8)
+        ;
+
+        
+    
+    
+            var poly_line_b149e72222904278535757e6c69a3b3f = L.polyline(
+                [[47.679711, -3.005933], [47.558129, -2.931624]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_0d7f442ab4dfc9d99a1f0c67a8befdef = L.marker(
+                [47.61892, -2.9687785],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_25192e3eb0be6738c7424608d558b155 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e81\u003c/div\u003e"});
+            marker_0d7f442ab4dfc9d99a1f0c67a8befdef.setIcon(div_icon_25192e3eb0be6738c7424608d558b155);
+        
+    
+            var marker_a7f4b03c8366b12c8c07373539fd2384 = L.marker(
+                [47.558129, -2.931624],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var icon_e23b9f75fe85b0bb607a742729939172 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7f4b03c8366b12c8c07373539fd2384.setIcon(icon_e23b9f75fe85b0bb607a742729939172);
+        
+    
+        var popup_85f8f34742f5b16f992b44ac8ec105a4 = L.popup({"maxWidth": 300});
+
+        
+            var html_f18397b3e68392fe51fd30901c6d630d = $(`<div id="html_f18397b3e68392fe51fd30901c6d630d" style="width: 100.0%; height: 100.0%;">Bâtiment: ALSH KER YVONNICK<br>Tranche de surface: C 501-1000<br>Numéro d'ordre: 82</div>`)[0];
+            popup_85f8f34742f5b16f992b44ac8ec105a4.setContent(html_f18397b3e68392fe51fd30901c6d630d);
+        
+
+        marker_a7f4b03c8366b12c8c07373539fd2384.bindPopup(popup_85f8f34742f5b16f992b44ac8ec105a4)
+        ;
+
+        
+    
+    
+            var poly_line_d8b8692d5b667ddafcaf7ca19890a5e5 = L.polyline(
+                [[47.558129, -2.931624], [47.558129, -2.931624]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var marker_76b90b4537461ccd01809ee037ac7cb3 = L.marker(
+                [47.558129, -2.931624],
+                {}
+            ).addTo(map_3126d238d5d455da0b392ccab84a8689);
+        
+    
+            var div_icon_f41fcf59e9db855538d3e7a567dbb56b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-weight:bold; font-size:12px; padding: 2px;\"\u003e82\u003c/div\u003e"});
+            marker_76b90b4537461ccd01809ee037ac7cb3.setIcon(div_icon_f41fcf59e9db855538d3e7a567dbb56b);
+        
+</script>
+</html>
